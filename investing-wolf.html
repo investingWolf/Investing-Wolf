@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investing Wolf | Global Capital Management</title>
+<meta name="description" content="Investing Wolf Group — global capital management and investment advisory across equities, cryptocurrency, private equity and real estate. Offices in London, UK and Kalispell, Montana, USA.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="canonical" href="https://investingwolfgroup.com/">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Investing Wolf | Global Capital Management">
+<meta property="og:description" content="Global capital management and investment advisory across equities, cryptocurrency, private equity and real estate.">
+<meta property="og:url" content="https://investingwolfgroup.com/">
+<meta property="og:image" content="https://investingwolfgroup.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Investing Wolf | Global Capital Management">
+<meta name="twitter:description" content="Global capital management and investment advisory across equities, cryptocurrency, private equity and real estate.">
+<meta name="twitter:image" content="https://investingwolfgroup.com/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Investing Wolf",
+  "url": "https://investingwolfgroup.com/",
+  "founder": {
+    "@type": "Person",
+    "name": "Václav Krůta"
+  },
+  "sameAs": [
+    "https://www.instagram.com/wolf_global_holdings"
+  ],
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Investing Wolf Limited",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "167-169 Great Portland Street",
+        "addressLocality": "London",
+        "postalCode": "W1W 5PF",
+        "addressCountry": "UK"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Investing Wolf LLC",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1001 S Main St Ste 500",
+        "addressLocality": "Kalispell",
+        "addressRegion": "MT",
+        "postalCode": "59901",
+        "addressCountry": "US"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who can invest with Investing Wolf?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our current structure serves High Net Worth and Sophisticated Investors under applicable UK exemptions, and accredited investors in the US. We conduct a suitability review before any engagement begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Investing Wolf FCA regulated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Investing Wolf Limited is not currently authorised by the UK FCA. Engagements with UK investors rely on the High Net Worth / Sophisticated Investor exemptions under the Financial Promotion Order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the scholarship program work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We award 3-5 scholarships annually to students across the Czech Republic, UK and USA. Applications require a motivation letter, essay and school transcript, submitted through our online form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which asset classes do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Global equities, digital assets, private equity, real estate including hospitality and agricultural land, sovereign bonds, and select gold mining positions."
+      }
+    }
+  ]
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3Z02JV9T3V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3Z02JV9T3V');
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8C96A;
+  --gold-dim: #8B7035;
+  --black: #060606;
+  --black-soft: #0C0C0C;
+  --black-card: #101010;
+  --black-hover: #161616;
+  --white: #F2EDE4;
+  --white-mid: #C8C0B0;
+  --white-dim: #7A7268;
+  --border: rgba(201,168,76,0.15);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--white);font-family:'Inter',sans-serif;font-weight:300;overflow-x:hidden;line-height:1.6;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:0 56px;height:72px;background:rgba(6,6,6,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.nav-brand{display:flex;align-items:center;gap:12px;font-family:'Cormorant Garamond',serif;font-size:1rem;letter-spacing:0.22em;color:var(--gold);text-transform:uppercase;}
+.nav-brand img{width:36px;height:36px;object-fit:contain;border-radius:50%;}
+.nav-links{display:flex;gap:32px;}
+.nav-links a{color:var(--white-dim);text-decoration:none;font-size:0.67rem;letter-spacing:0.18em;text-transform:uppercase;transition:color 0.25s;}
+.nav-links a:hover{color:var(--gold);}
+.nav-right{display:flex;gap:14px;align-items:center;}
+.lang-sw{display:flex;border:1px solid var(--border);}
+.lang-btn{padding:5px 11px;font-size:0.65rem;cursor:pointer;border:none;background:transparent;color:var(--white-dim);font-family:'Inter',sans-serif;transition:all 0.2s;letter-spacing:0.1em;}
+.lang-btn.active{background:var(--gold);color:var(--black);font-weight:500;}
+.nav-cta{padding:9px 22px;background:var(--gold);color:var(--black);border:none;font-family:'Inter',sans-serif;font-size:0.65rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;text-decoration:none;transition:all 0.25s;}
+.nav-cta:hover{background:var(--gold-light);}
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px;z-index:210;}
+.hamburger span{width:24px;height:2px;background:var(--gold);transition:all 0.3s;}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-menu{position:fixed;top:72px;left:0;right:0;bottom:0;background:var(--black);z-index:199;display:none;flex-direction:column;align-items:center;justify-content:center;gap:32px;}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{color:var(--white);text-decoration:none;font-family:'Cormorant Garamond',serif;font-size:1.6rem;letter-spacing:0.1em;text-transform:uppercase;}
+.mobile-menu a:hover{color:var(--gold);}
+.insights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px;}
+.insight-card{border:1px solid var(--border);padding:32px 28px;background:rgba(201,168,76,0.02);transition:border-color 0.25s;}
+.insight-card:hover{border-color:var(--gold-dim);}
+.insight-date{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold-dim);}
+.insight-card h3{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:400;color:var(--white);margin:14px 0 12px;line-height:1.35;}
+.insight-card p{font-size:0.82rem;color:var(--white-dim);line-height:1.6;}
+@media(max-width:900px){
+  .insights-grid{grid-template-columns:1fr;}
+}
+.faq-list{max-width:820px;margin-top:40px;}
+.faq-item{border-bottom:1px solid var(--border);padding:22px 0;}
+.faq-item summary{cursor:pointer;font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:var(--white);list-style:none;display:flex;justify-content:space-between;align-items:center;}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{content:'+';color:var(--gold);font-size:1.4rem;font-weight:300;transition:transform 0.25s;margin-left:16px;flex-shrink:0;}
+.faq-item[open] summary::after{transform:rotate(45deg);}
+.faq-item p{margin-top:16px;font-size:0.86rem;color:var(--white-dim);line-height:1.7;}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:130px 32px 100px;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 50% 35%,rgba(201,168,76,0.05) 0%,transparent 65%);pointer-events:none;}
+.hero-logos{display:flex;gap:28px;margin-bottom:48px;align-items:center;justify-content:center;}
+.hero-logo-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;}
+.hero-logo-circle{width:100px;height:100px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;background:rgba(201,168,76,0.03);}
+.hero-logo-circle img{width:80px;height:80px;object-fit:contain;border-radius:50%;}
+.hero-logo-label{font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--white-dim);}
+.hero-eyebrow{font-size:0.62rem;letter-spacing:0.4em;color:var(--gold);text-transform:uppercase;margin-bottom:24px;}
+.hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3.2rem,9vw,7.5rem);font-weight:300;line-height:0.92;margin-bottom:10px;}
+.hero-title em{font-style:italic;color:var(--gold);}
+.hero-tagline{font-family:'Cormorant Garamond',serif;font-size:clamp(1rem,2vw,1.4rem);font-style:italic;color:var(--white-dim);margin-bottom:56px;letter-spacing:0.04em;}
+.hero-stats{display:flex;margin-bottom:60px;border:1px solid var(--border);}
+.hero-stat{padding:26px 44px;text-align:center;border-right:1px solid var(--border);background:rgba(201,168,76,0.02);}
+.hero-stat:last-child{border-right:none;}
+.stat-num{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:300;color:var(--gold);display:block;line-height:1;}
+.stat-label{font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--white-dim);margin-top:8px;display:block;}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;}
+.btn-gold{padding:15px 44px;background:var(--gold);color:var(--black);border:none;font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;text-decoration:none;transition:all 0.3s;display:inline-block;}
+.btn-gold:hover{background:var(--gold-light);}
+.btn-ghost{padding:15px 44px;background:transparent;color:var(--gold);border:1px solid var(--border);font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;text-decoration:none;transition:all 0.3s;display:inline-block;}
+.btn-ghost:hover{border-color:var(--gold);}
+
+/* LAYOUT */
+.hr{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);}
+.section{padding:96px 56px;max-width:1280px;margin:0 auto;}
+.section-dark{padding:96px 56px;background:var(--black-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.section-dark-inner{max-width:1280px;margin:0 auto;}
+.eyebrow{font-size:0.6rem;letter-spacing:0.38em;color:var(--gold);text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:14px;}
+.eyebrow::after{content:'';width:40px;height:1px;background:var(--gold-dim);}
+.h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4.5vw,3.8rem);font-weight:300;line-height:1.05;margin-bottom:20px;}
+.h2 em{font-style:italic;color:var(--gold);}
+.lead{font-size:0.88rem;line-height:1.9;color:var(--white-mid);max-width:560px;}
+
+/* FOUNDER */
+.founder-layout{display:grid;grid-template-columns:400px 1fr;gap:80px;align-items:start;margin-top:56px;}
+.founder-img-wrap{position:relative;}
+.founder-img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center top;display:block;filter:grayscale(15%);}
+.founder-badge{position:absolute;bottom:24px;left:24px;right:24px;background:rgba(6,6,6,0.93);border:1px solid var(--border);padding:18px 22px;backdrop-filter:blur(12px);}
+.founder-badge-name{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--white);display:block;}
+.founder-badge-title{font-size:0.6rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;margin-top:4px;display:block;}
+.founder-story{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;font-weight:300;line-height:1.55;color:var(--white-mid);margin-bottom:28px;}
+.founder-bio{font-size:0.86rem;line-height:1.95;color:var(--white-dim);margin-bottom:32px;}
+.entity-cards{display:flex;flex-direction:column;gap:14px;margin-bottom:36px;}
+.entity-card{display:flex;align-items:center;gap:18px;padding:18px 22px;border:1px solid var(--border);background:var(--black-card);transition:border-color 0.25s;}
+.entity-card:hover{border-color:var(--gold-dim);}
+.entity-flag{font-size:1.5rem;}
+.entity-name{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--gold);display:block;margin-bottom:3px;}
+.entity-detail{font-size:0.66rem;letter-spacing:0.1em;color:var(--white-dim);text-transform:uppercase;}
+.entity-year{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:rgba(201,168,76,0.3);font-weight:300;margin-left:auto;}
+.quote-block{padding:32px 36px;border-left:2px solid var(--gold);background:rgba(201,168,76,0.03);}
+.quote-text{font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-style:italic;font-weight:300;line-height:1.5;color:var(--white-mid);}
+.quote-attr{margin-top:14px;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);}
+
+/* CHARTS */
+.charts-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:56px;}
+.chart-box{background:var(--black-card);border:1px solid var(--border);padding:36px;}
+.chart-title{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--white);margin-bottom:8px;}
+.chart-sub{font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--white-dim);margin-bottom:28px;}
+.chart-wrap{position:relative;height:300px;}
+
+/* PORTFOLIO TABLE */
+.portfolio-table{width:100%;border-collapse:collapse;margin-top:48px;}
+.portfolio-table th{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);padding:12px 16px;border-bottom:1px solid var(--border);text-align:left;font-weight:400;}
+.portfolio-table td{padding:14px 16px;border-bottom:1px solid rgba(201,168,76,0.07);font-size:0.82rem;color:var(--white-dim);}
+.portfolio-table tr:hover td{background:var(--black-card);color:var(--white);}
+.portfolio-table .ticker{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--gold);font-weight:400;}
+.portfolio-table .val{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--white);}
+.portfolio-table .ret-pos{color:#4CAF50;}
+.portfolio-table .ret-neg{color:#ef5350;}
+
+/* INVESTMENTS CATEGORIES */
+.inv-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);margin-top:56px;}
+.inv-card{background:var(--black-card);padding:40px 36px;transition:background 0.25s;position:relative;overflow:hidden;}
+.inv-card:hover{background:var(--black-hover);}
+.inv-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transition:transform 0.35s;transform-origin:left;}
+.inv-card:hover::after{transform:scaleX(1);}
+.inv-icon{font-size:2rem;margin-bottom:20px;display:block;}
+.inv-cat{font-size:0.58rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.inv-title{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;margin-bottom:12px;}
+.inv-items{font-size:0.78rem;line-height:1.9;color:var(--white-dim);}
+.inv-value{margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--gold);font-weight:300;}
+
+/* REAL ASSETS VISUAL */
+.assets-visual{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);margin-top:56px;}
+.asset-tile{background:var(--black-card);padding:0;aspect-ratio:1;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;cursor:default;}
+.asset-tile-bg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:5rem;opacity:0.07;}
+.asset-tile-content{position:relative;padding:20px;background:linear-gradient(to top,rgba(6,6,6,0.95) 0%,transparent 100%);}
+.asset-tile-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--white);display:block;}
+.asset-tile-loc{font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-top:4px;display:block;}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);margin-top:56px;}
+.svc-card{background:var(--black-card);padding:48px 44px;transition:background 0.25s;position:relative;overflow:hidden;}
+.svc-card::before{content:'';position:absolute;top:0;left:0;width:2px;height:0;background:var(--gold);transition:height 0.4s;}
+.svc-card:hover::before{height:100%;}
+.svc-card:hover{background:var(--black-hover);}
+.svc-num{font-family:'Cormorant Garamond',serif;font-size:3rem;color:rgba(201,168,76,0.1);font-weight:300;line-height:1;margin-bottom:20px;display:block;}
+.svc-title{font-family:'Cormorant Garamond',serif;font-size:1.65rem;font-weight:400;margin-bottom:14px;}
+.svc-desc{font-size:0.82rem;line-height:1.85;color:var(--white-dim);margin-bottom:20px;}
+.svc-tag{display:inline-block;padding:4px 12px;border:1px solid var(--border);font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);}
+
+/* PROCESS */
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;border:1px solid var(--border);}
+.step{padding:40px 30px;border-right:1px solid var(--border);}
+.step:last-child{border-right:none;}
+.step-num{font-family:'Cormorant Garamond',serif;font-size:3.5rem;color:var(--gold);font-weight:300;line-height:1;display:block;margin-bottom:18px;}
+.step-title{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:400;margin-bottom:10px;}
+.step-desc{font-size:0.76rem;color:var(--white-dim);line-height:1.75;}
+
+/* CONDITIONS */
+.cond-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:56px;}
+.cond-item{background:var(--black-card);padding:30px 34px;border-left:2px solid transparent;transition:border-color 0.3s;}
+.cond-item:hover{border-color:var(--gold);}
+.cond-title{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold);margin-bottom:10px;display:block;}
+.cond-text{font-size:0.8rem;color:var(--white-dim);line-height:1.75;}
+
+/* CONTACT */
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;}
+.contact-info{display:flex;flex-direction:column;gap:0;margin-top:36px;}
+.cinfo-row{display:flex;gap:18px;padding:22px 0;border-bottom:1px solid var(--border);align-items:flex-start;}
+.cinfo-icon{color:var(--gold);font-size:0.9rem;margin-top:2px;min-width:16px;}
+.cinfo-label{font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--white-dim);margin-bottom:6px;display:block;}
+.cinfo-val{font-size:0.86rem;color:var(--white);line-height:1.65;}
+.cinfo-val a{color:var(--white);text-decoration:none;transition:color 0.2s;}
+.cinfo-val a:hover{color:var(--gold);}
+.form{display:flex;flex-direction:column;gap:16px;margin-top:36px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.fgroup{display:flex;flex-direction:column;gap:6px;}
+.flabel{font-size:0.58rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--white-dim);}
+.finput,.fselect,.ftextarea{background:var(--black-card);border:1px solid var(--border);color:var(--white);padding:13px 16px;font-family:'Inter',sans-serif;font-size:0.84rem;font-weight:300;outline:none;transition:border-color 0.25s;width:100%;}
+.finput:focus,.fselect:focus,.ftextarea:focus{border-color:var(--gold-dim);}
+.ftextarea{resize:vertical;min-height:100px;}
+.fselect{appearance:none;cursor:pointer;}
+option{background:#101010;}
+.form-submit{padding:16px;background:var(--gold);color:var(--black);border:none;font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
+.form-submit:hover{background:var(--gold-light);}
+.form-disc{font-size:0.6rem;color:var(--white-dim);line-height:1.65;letter-spacing:0.04em;}
+.min-banner{display:flex;align-items:center;gap:40px;padding:32px 44px;border:1px solid var(--border);background:rgba(201,168,76,0.03);margin-bottom:56px;}
+.min-num{font-family:'Cormorant Garamond',serif;font-size:3rem;color:var(--gold);font-weight:300;white-space:nowrap;}
+.min-text{font-size:0.82rem;color:var(--white-dim);line-height:1.75;}
+
+/* FOOTER */
+footer{border-top:1px solid var(--border);padding:60px 56px 40px;}
+.foot-top{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:48px;max-width:1280px;margin:0 auto 48px;}
+.foot-logo{font-family:'Cormorant Garamond',serif;font-size:1.3rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;margin-bottom:14px;display:block;}
+.foot-tag{font-size:0.76rem;color:var(--white-dim);line-height:1.75;}
+.foot-col-title{font-size:0.58rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;display:block;}
+.foot-links{display:flex;flex-direction:column;gap:10px;}
+.foot-links a{font-size:0.78rem;color:var(--white-dim);text-decoration:none;transition:color 0.2s;}
+.foot-links a:hover{color:var(--gold);}
+.foot-addr{font-size:0.76rem;color:var(--white-dim);line-height:1.85;}
+.foot-bottom{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding-top:28px;border-top:1px solid var(--border);flex-wrap:wrap;gap:16px;}
+.foot-legal{font-size:0.6rem;color:var(--white-dim);letter-spacing:0.05em;line-height:1.7;}
+.foot-logos{display:flex;gap:8px;}
+.foot-logos img{width:28px;height:28px;border-radius:50%;opacity:0.6;}
+
+/* LANG */
+[data-lang]{display:none;}
+[data-lang].active{display:block;}
+span[data-lang]{display:none;}
+span[data-lang].active{display:inline;}
+
+
+/* SCHOLARSHIP */
+.schol-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;margin-top:56px;}
+.schol-info{display:flex;flex-direction:column;gap:0;}
+.schol-item{padding:20px 0;border-bottom:1px solid var(--border);display:flex;gap:20px;align-items:flex-start;}
+.schol-icon{color:var(--gold);font-size:1.2rem;min-width:24px;}
+.schol-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--white-dim);margin-bottom:4px;display:block;}
+.schol-val{font-size:0.88rem;color:var(--white);line-height:1.75;}
+.schol-amount{font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:300;color:var(--gold);line-height:1;margin-bottom:8px;}
+.schol-amount-label{font-size:0.62rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--white-dim);}
+
+
+/* EXCHANGES */
+.exchanges-strip{padding:48px 56px;background:var(--black-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.exchanges-inner{max-width:1280px;margin:0 auto;}
+.exchanges-title{font-size:0.6rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:32px;text-align:center;}
+.exchanges-grid{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center;}
+.exchange-badge{padding:10px 24px;border:1px solid var(--border);background:var(--black-card);font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--white-dim);letter-spacing:0.08em;transition:all 0.25s;}
+.exchange-badge:hover{border-color:var(--gold);color:var(--gold);}
+.exchange-badge span{font-size:0.6rem;display:block;letter-spacing:0.15em;text-transform:uppercase;color:var(--white-dim);margin-top:2px;}
+
+/* PORTFOLIO LOGOS */
+.logos-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:40px;}
+.logo-badge{padding:8px 20px;border:1px solid var(--border);background:var(--black-card);font-size:0.75rem;color:var(--white-dim);letter-spacing:0.12em;text-transform:uppercase;transition:all 0.25s;}
+.logo-badge:hover{border-color:var(--gold);color:var(--gold);}
+
+/* COMPANY NUMBERS */
+.company-numbers{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);margin-top:48px;}
+.company-num-card{background:var(--black-card);padding:28px 32px;}
+.company-num-label{font-size:0.58rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--white-dim);margin-bottom:8px;display:block;}
+.company-num-val{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--gold);display:block;margin-bottom:4px;}
+.company-num-sub{font-size:0.7rem;color:var(--white-dim);}
+
+/* WHY US */
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);margin-top:56px;}
+.why-card{background:var(--black-card);padding:36px 28px;text-align:center;transition:background 0.25s;}
+.why-card:hover{background:var(--black-hover);}
+.why-icon{font-size:2rem;margin-bottom:16px;display:block;}
+.why-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;margin-bottom:10px;color:var(--white);}
+.why-desc{font-size:0.78rem;color:var(--white-dim);line-height:1.75;}
+
+/* BTC TICKER */
+.btc-ticker{display:flex;align-items:center;gap:16px;padding:16px 24px;border:1px solid var(--border);background:rgba(201,168,76,0.03);margin-top:32px;width:fit-content;}
+.btc-ticker-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--white-dim);}
+.btc-ticker-price{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--gold);font-weight:300;}
+
+
+/* TESTIMONIALS */
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);margin-top:56px;}
+.testimonial-card{background:var(--black-card);padding:40px 36px;position:relative;transition:background 0.25s;}
+.testimonial-card:hover{background:var(--black-hover);}
+.testimonial-quote{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-style:italic;font-weight:300;line-height:1.6;color:var(--white-mid);margin-bottom:24px;}
+.testimonial-quote::before{content:'“';font-size:3rem;color:var(--gold);line-height:0;vertical-align:-0.5em;margin-right:4px;font-family:'Cormorant Garamond',serif;}
+.testimonial-author{font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);}
+.testimonial-detail{font-size:0.68rem;color:var(--white-dim);margin-top:4px;}
+
+/* FAQ */
+.faq-list{display:flex;flex-direction:column;gap:0;margin-top:56px;}
+.faq-item{border-bottom:1px solid var(--border);overflow:hidden;}
+.faq-question{width:100%;background:transparent;border:none;color:var(--white);font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;padding:24px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left;transition:color 0.25s;}
+.faq-question:hover{color:var(--gold);}
+.faq-icon{color:var(--gold);font-size:1.4rem;font-weight:300;min-width:20px;transition:transform 0.3s;}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease;}
+.faq-answer-inner{padding:0 0 24px;font-size:0.88rem;color:var(--white-dim);line-height:1.85;}
+.faq-item.open .faq-icon{transform:rotate(45deg);}
+.faq-item.open .faq-answer{max-height:300px;}
+
+/* NEWSLETTER */
+.newsletter-box{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:56px;border:1px solid var(--border);background:rgba(201,168,76,0.03);margin-top:56px;}
+.newsletter-form{display:flex;gap:12px;}
+.newsletter-input{flex:1;background:var(--black-card);border:1px solid var(--border);color:var(--white);padding:14px 18px;font-family:'Inter',sans-serif;font-size:0.85rem;outline:none;transition:border-color 0.25s;}
+.newsletter-input:focus{border-color:var(--gold-dim);}
+.newsletter-btn{padding:14px 28px;background:var(--gold);color:var(--black);border:none;font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:all 0.25s;}
+.newsletter-btn:hover{background:var(--gold-light);}
+
+/* MAP */
+.offices-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);margin-top:56px;}
+.office-card{background:var(--black-card);padding:40px 36px;}
+.office-flag{font-size:2rem;margin-bottom:16px;display:block;}
+.office-city{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--gold);font-weight:300;display:block;margin-bottom:8px;}
+.office-address{font-size:0.82rem;color:var(--white-dim);line-height:1.85;}
+.office-map{margin-top:20px;border:1px solid var(--border);overflow:hidden;}
+
+
+/* BOOK */
+.book-section{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:56px;}
+.book-cover{background:var(--black-card);border:1px solid var(--border);padding:48px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:20px;position:relative;overflow:hidden;}
+.book-cover::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 50% 50%,rgba(201,168,76,0.06) 0%,transparent 70%);}
+.book-title-big{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--gold);line-height:1.1;position:relative;}
+.book-subtitle{font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--white-dim);position:relative;}
+.book-author{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--white-mid);font-style:italic;position:relative;}
+.book-amazon{display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:var(--gold);color:var(--black);font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;transition:all 0.25s;position:relative;}
+.book-amazon:hover{background:var(--gold-light);}
+
+/* WHATSAPP */
+.whatsapp-float{position:fixed;bottom:28px;right:28px;z-index:999;display:flex;flex-direction:column;gap:10px;align-items:flex-end;}
+.wa-btn{display:flex;align-items:center;gap:10px;padding:12px 20px;border-radius:50px;text-decoration:none;font-family:'Inter',sans-serif;font-size:0.75rem;font-weight:500;transition:all 0.25s;box-shadow:0 4px 20px rgba(0,0,0,0.4);}
+.wa-btn-uk{background:#25D366;color:#000;}
+.wa-btn-us{background:#128C7E;color:#fff;}
+.wa-btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,0.5);}
+.wa-icon{font-size:1.2rem;}
+.wa-toggle{width:56px;height:56px;border-radius:50%;background:#25D366;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.6rem;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all 0.25s;}
+.wa-toggle:hover{transform:scale(1.1);}
+.wa-menu{display:none;flex-direction:column;gap:8px;align-items:flex-end;}
+.wa-menu.open{display:flex;}
+
+/* COOKIE */
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:rgba(10,10,10,0.97);border-top:1px solid var(--border);padding:20px 48px;display:flex;justify-content:space-between;align-items:center;gap:24px;backdrop-filter:blur(12px);}
+.cookie-text{font-size:0.78rem;color:var(--white-dim);line-height:1.6;max-width:700px;}
+.cookie-text a{color:var(--gold);text-decoration:none;}
+.cookie-btns{display:flex;gap:10px;flex-shrink:0;}
+.cookie-accept{padding:10px 24px;background:var(--gold);color:var(--black);border:none;font-family:'Inter',sans-serif;font-size:0.68rem;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
+.cookie-accept:hover{background:var(--gold-light);}
+.cookie-decline{padding:10px 24px;background:transparent;color:var(--white-dim);border:1px solid var(--border);font-family:'Inter',sans-serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
+.cookie-decline:hover{border-color:var(--gold);color:var(--gold);}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-track{background:var(--black);}
+::-webkit-scrollbar-thumb{background:var(--gold-dim);}
+
+@media(max-width:900px){
+  nav{padding:0 20px;}
+  .nav-links{display:none;}
+  .hamburger{display:flex;}
+  .section,.section-dark{padding:72px 24px;}
+  .hero{padding:100px 20px 80px;}
+  .hero-stats{flex-direction:column;}
+  .hero-stat{border-right:none;border-bottom:1px solid var(--border);}
+  .founder-layout,.charts-grid,.contact-layout{grid-template-columns:1fr;gap:48px;}
+  .inv-grid{grid-template-columns:1fr 1fr;}
+  .assets-visual{grid-template-columns:1fr 1fr;}
+  .services-grid{grid-template-columns:1fr;}
+  .process-steps{grid-template-columns:1fr 1fr;}
+  .cond-grid{grid-template-columns:1fr;}
+  .foot-top{grid-template-columns:1fr 1fr;}
+  .form-row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand">
+    <img src="logo-llc-nav.jpg" alt="IW LLC">
+    Investing Wolf
+  </div>
+  <div class="nav-links">
+    <a href="#about"><span data-lang="en" class="active">About</span><span data-lang="cs">O nás</span></a>
+    <a href="#portfolio"><span data-lang="en" class="active">Portfolio</span><span data-lang="cs">Portfolio</span></a>
+    <a href="#investments"><span data-lang="en" class="active">Investments</span><span data-lang="cs">Investice</span></a>
+    <a href="#services"><span data-lang="en" class="active">Services</span><span data-lang="cs">Služby</span></a>
+    <a href="#insights"><span data-lang="en" class="active">Insights</span><span data-lang="cs">Přehledy</span></a>
+    <a href="#scholarship"><span data-lang="en" class="active">Scholarship</span><span data-lang="cs">Stipendium</span></a><a href="#contact"><span data-lang="en" class="active">Contact</span><span data-lang="cs">Kontakt</span></a>
+  </div>
+  <div class="nav-right">
+    <div class="lang-sw">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('cs')">CS</button>
+    </div>
+    <a href="#contact" class="nav-cta">
+      <span data-lang="en" class="active">Invest Now</span>
+      <span data-lang="cs">Investovat</span>
+    </a>
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMobileMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMobileMenu()"><span data-lang="en" class="active">About</span><span data-lang="cs">O nás</span></a>
+  <a href="#portfolio" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Portfolio</span><span data-lang="cs">Portfolio</span></a>
+  <a href="#investments" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Investments</span><span data-lang="cs">Investice</span></a>
+  <a href="#services" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Services</span><span data-lang="cs">Služby</span></a>
+  <a href="#insights" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Insights</span><span data-lang="cs">Přehledy</span></a>
+  <a href="#scholarship" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Scholarship</span><span data-lang="cs">Stipendium</span></a>
+  <a href="#contact" onclick="toggleMobileMenu()"><span data-lang="en" class="active">Contact</span><span data-lang="cs">Kontakt</span></a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-logos">
+    <div class="hero-logo-wrap">
+      <div class="hero-logo-circle"><img src="logo-llc-nav.jpg" alt="LLC"></div>
+      <span class="hero-logo-label">LLC · USA</span>
+    </div>
+    <div class="hero-logo-wrap">
+      <div class="hero-logo-circle"><img src="logo-limited-footer.jpg" alt="Limited"></div>
+      <span class="hero-logo-label">Limited · UK</span>
+    </div>
+  </div>
+  <p class="hero-eyebrow">
+    <span data-lang="en" class="active">London · New York · Global Capital Management</span>
+    <span data-lang="cs">Londýn · New York · Globální správa kapitálu</span>
+  </p>
+  <h1 class="hero-title">
+    <span data-lang="en" class="active">Where Capital<br><em>Hunts Returns</em></span>
+    <span data-lang="cs">Kde Kapitál<br><em>Loví Výnosy</em></span>
+  </h1>
+  <p class="hero-tagline">
+    <span data-lang="en" class="active">Investing Wolf LLC · Investing Wolf Limited</span>
+    <span data-lang="cs">Investing Wolf LLC · Investing Wolf Limited</span>
+  </p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="stat-num">£7.9B+</span>
+      <span class="stat-label"><span data-lang="en" class="active">Verified AUM</span><span data-lang="cs">Ověřené AUM</span></span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">50,000+</span>
+      <span class="stat-label"><span data-lang="en" class="active">Active Clients</span><span data-lang="cs">Aktivních klientů</span></span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">10,000+</span>
+      <span class="stat-label"><span data-lang="en" class="active">Bitcoin Held</span><span data-lang="cs">Bitcoin v držení</span></span>
+    </div>
+    <div class="hero-stat">
+      <span class="stat-num">15+</span>
+      <span class="stat-label"><span data-lang="en" class="active">Asset Classes</span><span data-lang="cs">Tříd aktiv</span></span>
+    </div>
+  </div>
+  <div class="hero-actions">
+    <a href="#contact" class="btn-gold">
+      <span data-lang="en" class="active">Become a Client</span>
+      <span data-lang="cs">Stát se klientem</span>
+    </a>
+    <a href="#portfolio" class="btn-ghost">
+      <span data-lang="en" class="active">View Portfolio</span>
+      <span data-lang="cs">Zobrazit portfolio</span>
+    </a>
+  </div>
+</div>
+<div class="hr"></div>
+
+<!-- ABOUT / FOUNDER -->
+<div id="about">
+  <div class="section">
+    <div class="eyebrow"><span data-lang="en" class="active">The Founder</span><span data-lang="cs">Zakladatel</span></div>
+    <div class="founder-layout">
+      <div class="founder-img-wrap">
+        <img src="vaclav-kruta.jpg" alt="Václav Krůta" class="founder-img">
+        <div class="founder-badge">
+          <span class="founder-badge-name">Václav Krůta</span>
+          <span class="founder-badge-title">Founder & CEO · Investing Wolf Group</span>
+        </div>
+      </div>
+      <div>
+        <p class="founder-story">
+          <span data-lang="en" class="active">"I didn't build Investing Wolf to play it safe. I built it to do what most funds are afraid to do — move fast, think globally, and never stop hunting."</span>
+          <span data-lang="cs">„Investing Wolf jsem nevybudoval proto, abych hrál na jistotu. Vybudoval jsem ho proto, aby dělal to, čeho se většina fondů bojí — jednat rychle, myslet globálně a nikdy nepřestat lovit."</span>
+        </p>
+        <p class="founder-bio">
+          <span data-lang="en" class="active">Václav Krůta is the founder and CEO of the Investing Wolf Group. Starting from a deep conviction in Bitcoin and global equity markets, Václav built a verified portfolio exceeding £7.9 billion — spanning Berkshire Hathaway, Eli Lilly, Walmart, SpaceX, Kraken, gold mines, luxury hotels, ranches, farmland, and prime real estate across USA, London, Dubai, Spain and Georgia. With over 50,000 active clients and two entities registered in London and the United States, the Investing Wolf Group operates as a global private capital management powerhouse.</span>
+          <span data-lang="cs">Václav Krůta je zakladatel a CEO skupiny Investing Wolf. Vycházeje z přesvědčení v Bitcoin a globální trhy, vybudoval ověřené portfolio přesahující £7,9 miliardy — zahrnující Berkshire Hathaway, Eli Lilly, Walmart, SpaceX, Kraken, zlaté doly, luxusní hotely, ranče, zemědělskou půdu a prémiové nemovitosti v USA, Londýně, Dubaji, Španělsku a Gruzii. S více než 50 000 aktivními klienty skupina působí jako globální správce soukromého kapitálu.</span>
+        </p>
+        <div class="entity-cards">
+          <div class="entity-card">
+            <span class="entity-flag">🇬🇧</span>
+            <div style="flex:1">
+              <span class="entity-name">Investing Wolf Limited</span>
+              <span class="entity-detail">167-169 Great Portland Street, London W1W 5PF</span>
+            </div>
+            <span class="entity-year">2024</span>
+          </div>
+          <div class="entity-card">
+            <span class="entity-flag">🇺🇸</span>
+            <div style="flex:1">
+              <span class="entity-name">Investing Wolf LLC</span>
+              <span class="entity-detail">1001 South Main St, Suite 500, Kalispell, Montana 59901</span>
+            </div>
+            <span class="entity-year">2025</span>
+          </div>
+        </div>
+        <div class="quote-block">
+          <p class="quote-text">
+            <span data-lang="en" class="active">"The wolf does not perform for the audience. It hunts, it leads, it dominates — and the results speak for themselves."</span>
+            <span data-lang="cs">„Vlk nevystupuje pro publikum. Loví, vede, dominuje — a výsledky mluví za sebe."</span>
+          </p>
+          <div class="quote-attr">— Václav Krůta, Founder & CEO</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hr"></div>
+
+<!-- PORTFOLIO & CHARTS -->
+<div id="portfolio" class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">Verified Portfolio · Sharesight · May 2026</span><span data-lang="cs">Ověřené portfolio · Sharesight · Květen 2026</span></div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">£7,913,664,438<br><em>Under Management</em></span>
+      <span data-lang="cs">£7 913 664 438<br><em>Ve správě</em></span>
+    </h2>
+    <p class="lead">
+      <span data-lang="en" class="active">Independently tracked and verified through Sharesight institutional platform. Full exposure reports available to all clients on request.</span>
+      <span data-lang="cs">Nezávisle sledováno a ověřováno přes institucionální platformu Sharesight. Kompletní výpisy expozice dostupné všem klientům na vyžádání.</span>
+    </p>
+
+    <div class="charts-grid">
+      <div class="chart-box">
+        <div class="chart-title"><span data-lang="en" class="active">Portfolio Exposure</span><span data-lang="cs">Expozice portfolia</span></div>
+        <div class="chart-sub"><span data-lang="en" class="active">By Asset Class · May 2026</span><span data-lang="cs">Dle třídy aktiv · Květen 2026</span></div>
+        <div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+      </div>
+      <div class="chart-box">
+        <div class="chart-title"><span data-lang="en" class="active">Top Holdings Performance</span><span data-lang="cs">Výkonnost top pozic</span></div>
+        <div class="chart-sub"><span data-lang="en" class="active">Annual Return % · Apr 2025 – Apr 2026</span><span data-lang="cs">Roční výnos % · Dub 2025 – Dub 2026</span></div>
+        <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- TOP HOLDINGS TABLE -->
+    <table class="portfolio-table">
+      <thead>
+        <tr>
+          <th><span data-lang="en" class="active">Asset</span><span data-lang="cs">Aktivum</span></th>
+          <th><span data-lang="en" class="active">Name</span><span data-lang="cs">Název</span></th>
+          <th><span data-lang="en" class="active">Value</span><span data-lang="cs">Hodnota</span></th>
+          <th>%</th>
+          <th><span data-lang="en" class="active">Return</span><span data-lang="cs">Výnos</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="ticker">BRK/A</td><td>Berkshire Hathaway</td><td class="val">£1,193,955,655</td><td>15.09%</td><td class="ret-pos">+0.11%</td></tr>
+        <tr><td class="ticker">HOTELS</td><td><span data-lang="en" class="active">Investment in Hotels</span><span data-lang="cs">Investice do hotelů</span></td><td class="val">£900,000,000</td><td>11.37%</td><td>—</td></tr>
+        <tr><td class="ticker">PRIVATE</td><td>SpaceX · Colossal · Kraken</td><td class="val">£720,000,000</td><td>9.10%</td><td>—</td></tr>
+        <tr><td class="ticker">BTC</td><td>Bitcoin (10,000 coins)</td><td class="val">£596,908,693</td><td>7.54%</td><td class="ret-neg">-22.77%</td></tr>
+        <tr><td class="ticker">STARTUP</td><td><span data-lang="en" class="active">StartUp Shares</span><span data-lang="cs">StartUp podíly</span></td><td class="val">£600,000,000</td><td>7.58%</td><td>—</td></tr>
+        <tr><td class="ticker">GOLD</td><td><span data-lang="en" class="active">Gold Mines</span><span data-lang="cs">Zlaté doly</span></td><td class="val">£582,000,000</td><td>7.35%</td><td>—</td></tr>
+        <tr><td class="ticker">LLY</td><td>Eli Lilly & Co</td><td class="val">£500,468,314</td><td>6.32%</td><td class="ret-pos">+24.58%</td></tr>
+        <tr><td class="ticker">RE</td><td><span data-lang="en" class="active">Real Estate (US/UK/Dubai)</span><span data-lang="cs">Nemovitosti</span></td><td class="val">£400,000,000</td><td>5.05%</td><td>—</td></tr>
+        <tr><td class="ticker">WMT</td><td>Walmart Inc</td><td class="val">£202,161,423</td><td>2.55%</td><td class="ret-pos">+48.77%</td></tr>
+        <tr><td class="ticker">MA</td><td>Mastercard Inc</td><td class="val">£223,693,605</td><td>2.83%</td><td class="ret-neg">-1.14%</td></tr>
+        <tr><td class="ticker">ETH</td><td>Ethereum (90,000 coins)</td><td class="val">£158,072,349</td><td>2.00%</td><td class="ret-pos">+13.32%</td></tr>
+        <tr><td class="ticker">AVGO</td><td>Broadcom Inc</td><td class="val">£153,822,408</td><td>1.94%</td><td class="ret-pos">+4.87%</td></tr>
+        <tr><td class="ticker">BONDS</td><td><span data-lang="en" class="active">Bonds (Ukraine, Australia, Egypt, Laos)</span><span data-lang="cs">Dluhopisy</span></td><td class="val">£270,000,000</td><td>3.41%</td><td>—</td></tr>
+        <tr><td class="ticker">APT</td><td><span data-lang="en" class="active">Apartments (USA/London/Dubai/Georgia)</span><span data-lang="cs">Byty</span></td><td class="val">£140,000,000</td><td>1.77%</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="hr"></div>
+
+<!-- ALL INVESTMENTS -->
+<div id="investments">
+  <div class="section">
+    <div class="eyebrow"><span data-lang="en" class="active">Where We Invest</span><span data-lang="cs">Kam investujeme</span></div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">Every Asset Class,<br><em>Every Opportunity</em></span>
+      <span data-lang="cs">Každá třída aktiv,<br><em>každá příležitost</em></span>
+    </h2>
+    <p class="lead">
+      <span data-lang="en" class="active">From blue-chip NYSE stocks to Bitcoin, from SpaceX to gold mines and luxury ranches — Investing Wolf deploys capital wherever the best risk-adjusted returns exist.</span>
+      <span data-lang="cs">Od blue-chip akcií NYSE přes Bitcoin, od SpaceX po zlaté doly a luxusní ranče — Investing Wolf nasazuje kapitál tam, kde existují nejlepší výnosy.</span>
+    </p>
+
+    <div class="inv-grid">
+      <!-- Public Equities -->
+      <div class="inv-card">
+        <span class="inv-icon">📈</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Public Markets</span><span data-lang="cs">Veřejné trhy</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Global Equities</span><span data-lang="cs">Globální akcie</span></div>
+        <p class="inv-items">Berkshire Hathaway · Eli Lilly · Walmart · Mastercard · Microsoft · Broadcom · Johnson & Johnson · Bank of America · Coca-Cola · Visa · Chevron · Conoco Phillips · Bank of NY Mellon · 3M · Tesla · Halliburton</p>
+        <div class="inv-value">£2.4B+ NYSE/NASDAQ/LSE</div>
+      </div>
+      <!-- Crypto -->
+      <div class="inv-card">
+        <span class="inv-icon">₿</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Digital Assets</span><span data-lang="cs">Digitální aktiva</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Crypto</span><span data-lang="cs">Krypto</span></div>
+        <p class="inv-items">Bitcoin — 10,000+ coins<br>Ethereum — 90,000 coins<br><span data-lang="en" class="active">Institutional custody & security</span><span data-lang="cs">Institucionální úschova a zabezpečení</span></p>
+        <div class="inv-value">£755M+ BTC · ETH</div>
+      </div>
+      <!-- Private / Pre-IPO -->
+      <div class="inv-card">
+        <span class="inv-icon">🚀</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Private · Pre-IPO</span><span data-lang="cs">Soukromé · Pre-IPO</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Ventures & Startups</span><span data-lang="cs">Startupy a projekty</span></div>
+        <p class="inv-items">SpaceX · Colossal Biosciences · Kraken · AI Companies · <span data-lang="en" class="active">Private company shares</span><span data-lang="cs">Podíly v soukromých firmách</span> · StartUp <span data-lang="en" class="active">portfolio</span><span data-lang="cs">portfolio</span></p>
+        <div class="inv-value">£1.32B+ <span data-lang="en" class="active">Private</span><span data-lang="cs">Soukromé</span></div>
+      </div>
+      <!-- Real Estate -->
+      <div class="inv-card">
+        <span class="inv-icon">🏙️</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Real Estate</span><span data-lang="cs">Nemovitosti</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Property & Apartments</span><span data-lang="cs">Nemovitosti a byty</span></div>
+        <p class="inv-items">USA · London · Dubai · Spain · Georgia<br><span data-lang="en" class="active">Premium residential & commercial properties · Luxury apartments</span><span data-lang="cs">Prémiové rezidenční a komerční nemovitosti · Luxusní byty</span></p>
+        <div class="inv-value">£540M+ <span data-lang="en" class="active">Real Assets</span><span data-lang="cs">Reálná aktiva</span></div>
+      </div>
+      <!-- Hotels -->
+      <div class="inv-card">
+        <span class="inv-icon">🏨</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Hospitality</span><span data-lang="cs">Hotelnictví</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Hotels & Resorts</span><span data-lang="cs">Hotely a resorty</span></div>
+        <p class="inv-items"><span data-lang="en" class="active">Direct investment in luxury hotels and hospitality real estate. Global portfolio delivering stable cash flows and long-term capital appreciation.</span><span data-lang="cs">Přímé investice do luxusních hotelů a pohostinských nemovitostí. Globální portfolio přinášející stabilní cash flow a dlouhodobé zhodnocení kapitálu.</span></p>
+        <div class="inv-value">£900M+ <span data-lang="en" class="active">Hotels</span><span data-lang="cs">Hotely</span></div>
+      </div>
+      <!-- Gold Mines -->
+      <div class="inv-card">
+        <span class="inv-icon">⛏️</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Natural Resources</span><span data-lang="cs">Přírodní zdroje</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Gold Mines & Oil</span><span data-lang="cs">Zlaté doly a ropa</span></div>
+        <p class="inv-items"><span data-lang="en" class="active">Gold mining operations · Oil companies (Chevron, Conoco Phillips, Halliburton, BP, Oil India) · Energy sector positions</span><span data-lang="cs">Těžba zlata · Ropné společnosti (Chevron, Conoco Phillips, Halliburton, BP, Oil India) · Pozice v energetickém sektoru</span></p>
+        <div class="inv-value">£582M+ <span data-lang="en" class="active">Gold & Energy</span><span data-lang="cs">Zlato a energie</span></div>
+      </div>
+      <!-- Bonds -->
+      <div class="inv-card">
+        <span class="inv-icon">📜</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Fixed Income</span><span data-lang="cs">Fixní výnos</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Bonds</span><span data-lang="cs">Dluhopisy</span></div>
+        <p class="inv-items"><span data-lang="en" class="active">Government and sovereign bonds across multiple jurisdictions: Ukraine · Australia · Egypt · Laos · Diversified fixed income providing portfolio stability.</span><span data-lang="cs">Státní dluhopisy napříč jurisdikcemi: Ukraina · Austrálie · Egypt · Laos · Diverzifikovaný fixní výnos pro stabilitu portfolia.</span></p>
+        <div class="inv-value">£270M+ <span data-lang="en" class="active">Bonds</span><span data-lang="cs">Dluhopisy</span></div>
+      </div>
+      <!-- Ranch & Land -->
+      <div class="inv-card">
+        <span class="inv-icon">🌾</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Land & Agriculture</span><span data-lang="cs">Půda a zemědělství</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">Ranch & Farmland</span><span data-lang="cs">Ranče a zemědělská půda</span></div>
+        <p class="inv-items"><span data-lang="en" class="active">Premium ranch and agricultural land investments. Hard assets with intrinsic value that appreciate with inflation and population growth. USA and international land holdings.</span><span data-lang="cs">Prémiové investice do rančů a zemědělské půdy. Reálná aktiva s vnitřní hodnotou, která roste s inflací a populačním růstem. USA a mezinárodní pozemky.</span></p>
+        <div class="inv-value"><span data-lang="en" class="active">Land Portfolio</span><span data-lang="cs">Portfolio půdy</span></div>
+      </div>
+      <!-- AI -->
+      <div class="inv-card">
+        <span class="inv-icon">🤖</span>
+        <span class="inv-cat"><span data-lang="en" class="active">Technology · Future</span><span data-lang="cs">Technologie · Budoucnost</span></span>
+        <div class="inv-title"><span data-lang="en" class="active">AI & Deep Tech</span><span data-lang="cs">AI a hluboké technologie</span></div>
+        <p class="inv-items"><span data-lang="en" class="active">Strategic positions in artificial intelligence companies, deep tech ventures, and the next generation of transformative technologies shaping the global economy.</span><span data-lang="cs">Strategické pozice v společnostech umělé inteligence, deep tech projektech a nové generaci transformativních technologií formujících globální ekonomiku.</span></p>
+        <div class="inv-value"><span data-lang="en" class="active">AI Portfolio</span><span data-lang="cs">AI Portfolio</span></div>
+      </div>
+    </div>
+
+    <!-- REAL ASSETS VISUAL TILES -->
+    <div style="margin-top:56px;">
+      <div class="eyebrow"><span data-lang="en" class="active">Real Asset Holdings</span><span data-lang="cs">Reálná aktiva</span></div>
+      <div class="assets-visual">
+        <div class="asset-tile">
+          <div class="asset-tile-bg">🏨</div>
+          <div class="asset-tile-content">
+            <span class="asset-tile-name"><span data-lang="en" class="active">Luxury Hotels</span><span data-lang="cs">Luxusní hotely</span></span>
+            <span class="asset-tile-loc">£900,000,000</span>
+          </div>
+        </div>
+        <div class="asset-tile">
+          <div class="asset-tile-bg">🌾</div>
+          <div class="asset-tile-content">
+            <span class="asset-tile-name"><span data-lang="en" class="active">Ranch & Farmland</span><span data-lang="cs">Ranče a půda</span></span>
+            <span class="asset-tile-loc">USA</span>
+          </div>
+        </div>
+        <div class="asset-tile">
+          <div class="asset-tile-bg">🏙️</div>
+          <div class="asset-tile-content">
+            <span class="asset-tile-name"><span data-lang="en" class="active">Prime Real Estate</span><span data-lang="cs">Prémiové nemovitosti</span></span>
+            <span class="asset-tile-loc">London · Dubai · USA · Spain · Georgia</span>
+          </div>
+        </div>
+        <div class="asset-tile">
+          <div class="asset-tile-bg">⛏️</div>
+          <div class="asset-tile-content">
+            <span class="asset-tile-name"><span data-lang="en" class="active">Gold Mines</span><span data-lang="cs">Zlaté doly</span></span>
+            <span class="asset-tile-loc">£582,000,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hr"></div>
+
+<!-- SERVICES -->
+<div id="services" class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">What We Offer</span><span data-lang="cs">Co nabízíme</span></div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">Strategies Built for<br><em>Serious Investors</em></span>
+      <span data-lang="cs">Strategie pro<br><em>vážné investory</em></span>
+    </h2>
+
+    <div class="min-banner">
+      <div class="min-num">$10,000</div>
+      <div class="min-text">
+        <strong style="color:var(--white);font-weight:500;"><span data-lang="en" class="active">Minimum Investment</span><span data-lang="cs">Minimální investice</span></strong><br>
+        <span data-lang="en" class="active">Every client receives a signed investment agreement, regular performance reports verified by Sharesight, and direct access to their portfolio manager.</span>
+        <span data-lang="cs">Každý klient obdrží podepsanou investiční smlouvu, pravidelné výkonnostní zprávy ověřené přes Sharesight a přímý přístup k portfolio manažerovi.</span>
+      </div>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-card">
+        <span class="svc-num">01</span>
+        <div class="svc-title"><span data-lang="en" class="active">Portfolio Investment</span><span data-lang="cs">Portfoliová investice</span></div>
+        <p class="svc-desc"><span data-lang="en" class="active">Access our £7.9B diversified portfolio spanning equities, crypto, real estate, private ventures, gold mines and more. Capital deployed across 15+ asset classes with institutional-grade risk management.</span><span data-lang="cs">Přístup k portfoliu £7,9 mld diverzifikovanému napříč akciemi, kryptem, nemovitostmi, soukromými projekty, zlatými doly a dalším. Kapitál nasazen napříč 15+ třídami aktiv s institucionálním řízením rizik.</span></p>
+        <span class="svc-tag">Min $10,000</span>
+      </div>
+      <div class="svc-card">
+        <span class="svc-num">02</span>
+        <div class="svc-title"><span data-lang="en" class="active">Bitcoin & Crypto</span><span data-lang="cs">Bitcoin a krypto</span></div>
+        <p class="svc-desc"><span data-lang="en" class="active">Institutional-grade exposure to Bitcoin (10,000+ coins) and Ethereum (90,000 coins). One of Europe's largest private crypto positions, managed with professional risk protocols and secure custody.</span><span data-lang="cs">Institucionální expozice vůči Bitcoinu (10 000+ coinů) a Ethereu (90 000 coinů). Jedna z největších soukromých krypto pozic v Evropě, spravovaná s profesionálními bezpečnostními protokoly.</span></p>
+        <span class="svc-tag">BTC · ETH</span>
+      </div>
+      <div class="svc-card">
+        <span class="svc-num">03</span>
+        <div class="svc-title"><span data-lang="en" class="active">Private Equity</span><span data-lang="cs">Private equity</span></div>
+        <p class="svc-desc"><span data-lang="en" class="active">Access to pre-IPO positions in SpaceX, Kraken, Colossal Biosciences and AI companies. £1.3B+ in private holdings unavailable to retail investors, opened exclusively for Investing Wolf clients.</span><span data-lang="cs">Přístup k pre-IPO pozicím v SpaceX, Kraken, Colossal Biosciences a AI společnostech. £1,3 mld+ v soukromých podílech nedostupných retailovým investorům.</span></p>
+        <span class="svc-tag">SpaceX · Kraken · AI</span>
+      </div>
+      <div class="svc-card">
+        <span class="svc-num">04</span>
+        <div class="svc-title"><span data-lang="en" class="active">Real Assets</span><span data-lang="cs">Reálná aktiva</span></div>
+        <p class="svc-desc"><span data-lang="en" class="active">Hotels, gold mines, premium real estate (London/Dubai/USA/Spain/Georgia), ranch and farmland. £2B+ in hard assets providing inflation protection and long-term capital preservation.</span><span data-lang="cs">Hotely, zlaté doly, prémiové nemovitosti (Londýn/Dubai/USA/Španělsko/Gruzie), ranče a zemědělská půda. £2 mld+ v reálných aktivech poskytujících ochranu před inflací.</span></p>
+        <span class="svc-tag"><span data-lang="en" class="active">Hotels · Gold · Land</span><span data-lang="cs">Hotely · Zlato · Půda</span></span>
+      </div>
+    </div>
+
+    <!-- PROCESS -->
+    <div style="margin-top:72px;">
+      <div class="eyebrow"><span data-lang="en" class="active">How It Works</span><span data-lang="cs">Jak to funguje</span></div>
+      <div class="process-steps">
+        <div class="step">
+          <span class="step-num">I</span>
+          <div class="step-title"><span data-lang="en" class="active">Consultation</span><span data-lang="cs">Konzultace</span></div>
+          <p class="step-desc"><span data-lang="en" class="active">We discuss your investment goals, risk appetite, and capital. All conversations strictly confidential.</span><span data-lang="cs">Probereme vaše cíle, toleranci rizika a kapitál. Vše přísně důvěrné.</span></p>
+        </div>
+        <div class="step">
+          <span class="step-num">II</span>
+          <div class="step-title"><span data-lang="en" class="active">Agreement & KYC</span><span data-lang="cs">Smlouva a KYC</span></div>
+          <p class="step-desc"><span data-lang="en" class="active">Signed investment agreement, identity verification, and investment certificates. Min $10,000.</span><span data-lang="cs">Podepsaná investiční smlouva, ověření identity a investiční certifikáty. Min $10 000.</span></p>
+        </div>
+        <div class="step">
+          <span class="step-num">III</span>
+          <div class="step-title"><span data-lang="en" class="active">Capital Deployment</span><span data-lang="cs">Nasazení kapitálu</span></div>
+          <p class="step-desc"><span data-lang="en" class="active">Your capital is allocated across our diversified portfolio of equities, crypto, real assets and private deals.</span><span data-lang="cs">Váš kapitál je alokován napříč portfoliem akcií, krypta, reálných aktiv a soukromých obchodů.</span></p>
+        </div>
+        <div class="step">
+          <span class="step-num">IV</span>
+          <div class="step-title"><span data-lang="en" class="active">Regular Reporting</span><span data-lang="cs">Pravidelné reporty</span></div>
+          <p class="step-desc"><span data-lang="en" class="active">Regular performance reports, exposure statements verified by Sharesight, and direct manager access.</span><span data-lang="cs">Pravidelné výkonnostní zprávy, výpisy expozice ověřené Sharesightem a přímý přístup k manažerovi.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONDITIONS -->
+    <div style="margin-top:72px;">
+      <div class="eyebrow"><span data-lang="en" class="active">Investment Conditions</span><span data-lang="cs">Podmínky investice</span></div>
+      <div class="cond-grid">
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Minimum Investment</span><span data-lang="cs">Minimální investice</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">$10,000 USD or equivalent in GBP/EUR/BTC. No maximum cap for qualified investors.</span><span data-lang="cs">$10 000 USD nebo ekvivalent v GBP/EUR/BTC. Žádný maximální strop pro kvalifikované investory.</span></p>
+        </div>
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Signed Agreement</span><span data-lang="cs">Podepsaná smlouva</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">Every client receives a legally binding investment agreement under UK or US jurisdiction. Full documentation provided.</span><span data-lang="cs">Každý klient obdrží právně závaznou investiční smlouvu pod britskou nebo americkou jurisdikcí. Kompletní dokumentace zajištěna.</span></p>
+        </div>
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Regular Reports</span><span data-lang="cs">Pravidelné výkazy</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">Clients receive regular performance reports, exposure breakdowns, and portfolio statements independently verified by Sharesight.</span><span data-lang="cs">Klienti dostávají pravidelné výkonnostní zprávy, přehled expozice a výpisy portfolia ověřené Sharesightem.</span></p>
+        </div>
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Investment Certificates</span><span data-lang="cs">Investiční certifikáty</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">Official investment certificates issued. Full KYC/AML compliance. Documentation maintained under UK and US regulatory standards.</span><span data-lang="cs">Vydávány oficiální investiční certifikáty. Plná KYC/AML shoda. Dokumentace dle britských a amerických standardů.</span></p>
+        </div>
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Portfolio Transparency</span><span data-lang="cs">Transparentnost</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">Full exposure reports available on request. Portfolio tracked and independently verified via Sharesight institutional platform (£7.9B verified).</span><span data-lang="cs">Kompletní výpisy expozice dostupné na vyžádání. Portfolio sledováno a ověřováno přes Sharesight (£7,9 mld ověřeno).</span></p>
+        </div>
+        <div class="cond-item">
+          <span class="cond-title"><span data-lang="en" class="active">Choose Your Entity</span><span data-lang="cs">Výběr entity</span></span>
+          <p class="cond-text"><span data-lang="en" class="active">Invest through Investing Wolf Limited (London, UK — est. 2024) or Investing Wolf LLC (Montana, USA — est. 2025) based on your jurisdiction preference.</span><span data-lang="cs">Investujte přes Investing Wolf Limited (Londýn, UK – zal. 2024) nebo Investing Wolf LLC (Montana, USA – zal. 2025) dle vaší preference.</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hr"></div>
+
+<!-- CONTACT -->
+<div id="contact">
+  <div class="section">
+    <div class="eyebrow"><span data-lang="en" class="active">Join the Pack</span><span data-lang="cs">Přidejte se</span></div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">Start Your<br><em>Investment Journey</em></span>
+      <span data-lang="cs">Začněte svou<br><em>investiční cestu</em></span>
+    </h2>
+    <div class="contact-layout">
+      <div>
+        <p class="lead"><span data-lang="en" class="active">Reach out to begin. We respond within 24 hours and guide you through the full onboarding process — from consultation to signed agreement and capital deployment.</span><span data-lang="cs">Kontaktujte nás. Odpovídáme do 24 hodin a provedeme vás celým procesem — od konzultace po podepsanou smlouvu a nasazení kapitálu.</span></p>
+        <div class="contact-info">
+          <div class="cinfo-row">
+            <span class="cinfo-icon">✦</span>
+            <div>
+              <span class="cinfo-label">🇬🇧 London</span>
+              <span class="cinfo-val">167-169 Great Portland Street<br>London, England, W1W 5PF</span>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <span class="cinfo-icon">✦</span>
+            <div>
+              <span class="cinfo-label">🇺🇸 Montana, USA</span>
+              <span class="cinfo-val">1001 South Main St, Suite 500<br>Kalispell, Montana 59901</span>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <span class="cinfo-icon">✦</span>
+            <div>
+              <span class="cinfo-label"><span data-lang="en" class="active">Phone / WhatsApp</span><span data-lang="cs">Telefon / WhatsApp</span></span>
+              <span class="cinfo-val">
+                <a href="tel:+447884199347">+44 7884 199 347</a> (UK)<br>
+                <a href="tel:+16466938478">+1 (646) 693-8478</a> (US)
+              </span>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <span class="cinfo-icon">✦</span>
+            <div>
+              <span class="cinfo-label">Email</span>
+              <span class="cinfo-val">
+                <a href="mailto:investingwolfllc@gmail.com">investingwolfllc@gmail.com</a><br>
+                <a href="mailto:vaclavkruta@investingwolflimited.co.uk">vaclavkruta@investingwolflimited.co.uk</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form action="https://formspree.io/f/xrevdora" method="POST" style="display:flex;flex-direction:column;gap:16px;margin-top:36px;">
+          <div class="form-row">
+            <div class="fgroup">
+              <label class="flabel"><span data-lang="en" class="active">First Name</span><span data-lang="cs">Jméno</span></label>
+              <input type="text" name="name" class="finput" required>
+            </div>
+            <div class="fgroup">
+              <label class="flabel"><span data-lang="en" class="active">Last Name</span><span data-lang="cs">Příjmení</span></label>
+              <input type="text" name="lastname" class="finput" required>
+            </div>
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Email</label>
+            <input type="email" name="email" class="finput" required>
+          </div>
+          <div class="fgroup">
+            <label class="flabel"><span data-lang="en" class="active">Phone / WhatsApp</span><span data-lang="cs">Telefon / WhatsApp</span></label>
+            <input type="tel" name="phone" class="finput">
+          </div>
+          <div class="fgroup">
+            <label class="flabel"><span data-lang="en" class="active">Investment Amount</span><span data-lang="cs">Investiční částka</span></label>
+            <select name="amount" class="fselect">
+              <option>$10,000 – $50,000</option>
+              <option>$50,000 – $250,000</option>
+              <option>$250,000 – $1,000,000</option>
+              <option>$1,000,000+</option>
+            </select>
+          </div>
+          <div class="fgroup">
+            <label class="flabel"><span data-lang="en" class="active">Preferred Entity</span><span data-lang="cs">Preferovaná entita</span></label>
+            <select name="entity" class="fselect">
+              <option>Investing Wolf Limited (UK)</option>
+              <option>Investing Wolf LLC (USA)</option>
+              <option><span data-lang="en" class="active">No preference</span><span data-lang="cs">Bez preference</span></option>
+            </select>
+          </div>
+          <div class="fgroup">
+            <label class="flabel"><span data-lang="en" class="active">Message</span><span data-lang="cs">Zpráva</span></label>
+            <textarea name="message" class="ftextarea"></textarea>
+          </div>
+          <button type="submit" class="form-submit">
+            <span data-lang="en" class="active">Submit — Response Within 24h</span>
+            <span data-lang="cs">Odeslat — Odpověď do 24 hodin</span>
+          </button>
+          </form>
+          <p class="form-disc">
+            <span data-lang="en" class="active">For qualified investors only. Investment involves risk. Not financial advice. Past performance does not guarantee future results. All investments subject to signed agreement and KYC/AML verification.</span>
+            <span data-lang="cs">Pouze pro kvalifikované investory. Investice zahrnuje riziko. Není to finanční poradenství. Minulá výkonnost nezaručuje budoucí výsledky. Vše podléhá podepsané smlouvě a KYC/AML ověření.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="hr"></div>
+
+<!-- EXCHANGES & PLATFORMS -->
+<div class="exchanges-strip">
+  <div class="exchanges-inner">
+    <div class="exchanges-title">
+      <span data-lang="en" class="active">Markets & Platforms We Trade On</span>
+      <span data-lang="cs">Burzy a platformy kde obchodujeme</span>
+    </div>
+    <div class="exchanges-grid">
+      <div class="exchange-badge">NYSE<span>New York Stock Exchange</span></div>
+      <div class="exchange-badge">NASDAQ<span>US Tech Markets</span></div>
+      <div class="exchange-badge">LSE<span>London Stock Exchange</span></div>
+      <div class="exchange-badge">BYBIT<span>Bitcoin &amp; Crypto</span></div>
+      <div class="exchange-badge">CRYPTO<span>Digital Assets</span></div>
+      <div class="exchange-badge">ASX<span>Australian Securities</span></div>
+      <div class="exchange-badge">NSE<span>National Stock Exchange India</span></div>
+      <div class="exchange-badge">SWX<span>Swiss Exchange</span></div>
+      <div class="exchange-badge">NEO<span>NEO Exchange Canada</span></div>
+      <div class="exchange-badge">SHARESIGHT<span>Verified Portfolio Tracking</span></div>
+    </div>
+
+    <!-- PORTFOLIO COMPANIES -->
+    <div style="margin-top:48px;">
+      <div class="exchanges-title">
+        <span data-lang="en" class="active">Companies &amp; Assets in Our Portfolio</span>
+        <span data-lang="cs">Spolecnosti a aktiva v nasem portfoliu</span>
+      </div>
+      <div class="logos-grid">
+        <div class="logo-badge">Berkshire Hathaway</div>
+        <div class="logo-badge">Eli Lilly</div>
+        <div class="logo-badge">Walmart</div>
+        <div class="logo-badge">Mastercard</div>
+        <div class="logo-badge">Microsoft</div>
+        <div class="logo-badge">Broadcom</div>
+        <div class="logo-badge">Johnson &amp; Johnson</div>
+        <div class="logo-badge">Bank of America</div>
+        <div class="logo-badge">Coca-Cola</div>
+        <div class="logo-badge">Visa</div>
+        <div class="logo-badge">Chevron</div>
+        <div class="logo-badge">Conoco Phillips</div>
+        <div class="logo-badge">Bitcoin</div>
+        <div class="logo-badge">Ethereum</div>
+        <div class="logo-badge">SpaceX</div>
+        <div class="logo-badge">Kraken</div>
+        <div class="logo-badge">Colossal Biosciences</div>
+        <div class="logo-badge">Tesla</div>
+        <div class="logo-badge">Apple</div>
+        <div class="logo-badge">3M</div>
+      </div>
+    </div>
+
+    <!-- COMPANY NUMBERS -->
+    <div style="margin-top:48px;">
+      <div class="exchanges-title">
+        <span data-lang="en" class="active">Official Registration Details</span>
+        <span data-lang="cs">Oficialni registracni udaje</span>
+      </div>
+      <div class="company-numbers">
+        <div class="company-num-card">
+          <span class="company-num-label">&#127468;&#127463; Investing Wolf Limited · UK</span>
+          <span class="company-num-val">Company No. 15899417</span>
+          <span class="company-num-sub">167-169 Great Portland Street, London W1W 5PF<br>Registered in England &amp; Wales · est. 2024</span>
+        </div>
+        <div class="company-num-card">
+          <span class="company-num-label">&#127482;&#127480; Investing Wolf LLC · USA</span>
+          <span class="company-num-val">File No. C1572225-17015155</span>
+          <span class="company-num-sub">EIN: 36-5162336<br>1001 South Main St, Suite 500, Kalispell, Montana 59901 · est. 2025</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- WHY INVEST WITH US -->
+<div class="section">
+  <div class="eyebrow">
+    <span data-lang="en" class="active">Why Investing Wolf</span>
+    <span data-lang="cs">Proc Investing Wolf</span>
+  </div>
+  <h2 class="h2">
+    <span data-lang="en" class="active">Four Reasons Investors<br><em>Choose Us</em></span>
+    <span data-lang="cs">Ctyre duvody proc investori<br><em>vybiraji nas</em></span>
+  </h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-icon">&#9755;</span>
+      <div class="why-title"><span data-lang="en" class="active">Verified Portfolio</span><span data-lang="cs">Overene portfolio</span></div>
+      <p class="why-desc"><span data-lang="en" class="active">£7.9B+ independently verified through Sharesight institutional platform. Full transparency on request.</span><span data-lang="cs">£7,9 mld+ nezavisle overeno pres Sharesight. Plna transparentnost na vyzadani.</span></p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">&#9755;</span>
+      <div class="why-title"><span data-lang="en" class="active">Direct CEO Access</span><span data-lang="cs">Primy pristup k CEO</span></div>
+      <p class="why-desc"><span data-lang="en" class="active">Every client has direct access to Vaclav Kruta, Founder & CEO. No middlemen, no waiting — real communication.</span><span data-lang="cs">Kazdy klient ma primy pristup k Vaclavovi Krutovi, zakladateli a CEO. Zadni prostrednici.</span></p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">&#9755;</span>
+      <div class="why-title"><span data-lang="en" class="active">Signed Agreement</span><span data-lang="cs">Podepsana smlouva</span></div>
+      <p class="why-desc"><span data-lang="en" class="active">Every client receives a legally binding investment agreement. Full documentation, KYC compliance and investment certificates.</span><span data-lang="cs">Kazdy klient obdrzi pravne zavaznou smlouvu. Kompletni dokumentace a investicni certifikaty.</span></p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">&#9755;</span>
+      <div class="why-title"><span data-lang="en" class="active">Global Diversification</span><span data-lang="cs">Globalni diverzifikace</span></div>
+      <p class="why-desc"><span data-lang="en" class="active">15+ asset classes across 3 continents. Equities, Bitcoin, private equity, real estate, gold mines, hotels and more.</span><span data-lang="cs">15+ trid aktiv na 3 kontinentech. Akcie, Bitcoin, private equity, nemovitosti, zlate doly a dalsi.</span></p>
+    </div>
+  </div>
+
+  <!-- BTC Live Price -->
+  <div class="btc-ticker" id="btcTicker">
+    <div>
+      <span class="btc-ticker-label">Bitcoin · Live Price</span>
+      <span class="btc-ticker-price" id="btcPrice">Loading...</span>
+    </div>
+    <div style="padding-left:16px;border-left:1px solid var(--border);">
+      <span class="btc-ticker-label">Our Holdings</span>
+      <span class="btc-ticker-price">10,000+ BTC</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="hr"></div>
+
+<!-- TESTIMONIALS -->
+<div class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow">
+      <span data-lang="en" class="active">Client Voices</span>
+      <span data-lang="cs">Nasi klienti</span>
+    </div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">What Our Investors<br><em>Say About Us</em></span>
+      <span data-lang="cs">Co rikaji nasi<br><em>investori</em></span>
+    </h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-quote">
+          <span data-lang="en" class="active">I have worked with many asset managers over the years. Investing Wolf is different — the transparency, the direct access to Vaclav, and the results speak for themselves. My portfolio has never been managed with such precision.</span>
+          <span data-lang="cs">Pracoval jsem s mnoha spravci aktiv. Investing Wolf je jiny — transparentnost, primy pristup k Vaclavovi a vysledky mluvi samy za sebe. Moje portfolio nebylo nikdy spravovano s takovou presnosti.</span>
+        </p>
+        <div class="testimonial-author">M.K.</div>
+        <div class="testimonial-detail"><span data-lang="en" class="active">Private Investor · Czech Republic · Client since 2024</span><span data-lang="cs">Soukromy investor · Ceska republika · Klient od 2024</span></div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-quote">
+          <span data-lang="en" class="active">What impressed me most was receiving a signed agreement on day one. The regular Sharesight reports give me complete confidence that my capital is where it should be. This is how private investment should work.</span>
+          <span data-lang="cs">Nejvice me zaujalo ze jsem hned prvni den dostal podepsanou smlouvu. Pravidelne zpravy ze Sharesightu mi daji uplnou jistotu ze muj kapital je tam kde ma byt.</span>
+        </p>
+        <div class="testimonial-author">P.O.</div>
+        <div class="testimonial-detail"><span data-lang="en" class="active">Entrepreneur · United States · Client since 2025</span><span data-lang="cs">Podnikatel · Spojene staty · Klient od 2025</span></div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-quote">
+          <span data-lang="en" class="active">The minimum entry of $10,000 made it accessible without feeling like a retail product. The exposure to SpaceX, Bitcoin and Berkshire Hathaway through one manager — that is something you simply cannot find elsewhere.</span>
+          <span data-lang="cs">Minimalni vstup $10 000 byl dostupny aniz by to pusobilo jako retailovy produkt. Expozice voci SpaceX, Bitcoinu a Berkshire Hathaway pres jednoho spravce — to jinde nenajdete.</span>
+        </p>
+        <div class="testimonial-author">S.N.</div>
+        <div class="testimonial-detail"><span data-lang="en" class="active">Business Owner · United Kingdom · Client since 2024</span><span data-lang="cs">Majitel firmy · Velka Britanie · Klient od 2024</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- FAQ -->
+<div class="section">
+  <div class="eyebrow">
+    <span data-lang="en" class="active">Frequently Asked Questions</span>
+    <span data-lang="cs">Caste dotazy</span>
+  </div>
+  <h2 class="h2">
+    <span data-lang="en" class="active">Everything You Need<br><em>To Know</em></span>
+    <span data-lang="cs">Vse co potrebujete<br><em>vedet</em></span>
+  </h2>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">How do I start investing with Investing Wolf?</span>
+        <span data-lang="cs">Jak zacnu investovat s Investing Wolf?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">Simply contact us via the form on this website or email investingwolfllc@gmail.com. We will arrange an initial consultation, after which you receive a signed investment agreement. Minimum investment is $10,000.</span>
+          <span data-lang="cs">Kontaktujte nas pres formular na tomto webu nebo emailem investingwolfllc@gmail.com. Domluvime uvodni konzultaci, po ktere obdrzite podepsanou investicni smlouvu. Minimalni investice je $10 000.</span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">What is the minimum investment amount?</span>
+        <span data-lang="cs">Jaka je minimalni investice?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">The minimum investment is $10,000 USD or equivalent in GBP, EUR or Bitcoin. There is no maximum cap for qualified investors.</span>
+          <span data-lang="cs">Minimalni investice je $10 000 USD nebo ekvivalent v GBP, EUR nebo Bitcoinu. Pro kvalifikovane investory neni stanoven maximalni limit.</span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">How is my capital protected?</span>
+        <span data-lang="cs">Jak je chranem muj kapital?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">Every client receives a signed investment agreement under UK or US jurisdiction. Your capital is allocated within our verified portfolio tracked independently through Sharesight. Full documentation and exposure reports are available on request.</span>
+          <span data-lang="cs">Kazdy klient obdrzi podepsanou smlouvu pod britskou nebo americkou jurisdikci. Vas kapital je alokovan v overenom portfoliu sledovanem nezavisle pres Sharesight.</span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">How often will I receive performance reports?</span>
+        <span data-lang="cs">Jak casto dostanu zpravy o vykonnosti?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">Clients receive regular performance reports verified through Sharesight, including portfolio exposure breakdowns and valuation statements. Additional reports are available on request at any time.</span>
+          <span data-lang="cs">Klienti dostávají pravidelne zpravy o vykonnosti overene pres Sharesight, vcetne prehlidu expozice portfolia a vykazů oceneni. Dalsi zpravy jsou dostupne na vyzadani kdykoli.</span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">Can I invest in Bitcoin through Investing Wolf?</span>
+        <span data-lang="cs">Mohu investovat do Bitcoinu pres Investing Wolf?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">Yes. We hold 10,000+ Bitcoin and 90,000 Ethereum — one of the largest private crypto positions in Europe. Your investment gains exposure to digital assets as part of our diversified portfolio.</span>
+          <span data-lang="cs">Ano. Drzime 10 000+ Bitcoinu a 90 000 Etherea — jedna z nejvetsich soukromych krypto pozic v Evrope. Vase investice ziskava expozici vuci digitalnim aktivum jako soucást naseho diverzifikovaneho portfolia.</span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" onclick="toggleFaq(this)">
+        <span data-lang="en" class="active">Which entity should I invest through — LLC or Limited?</span>
+        <span data-lang="cs">Pres kterou entitu mam investovat — LLC nebo Limited?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <div class="faq-answer-inner">
+          <span data-lang="en" class="active">Both entities are fully operational. Investing Wolf Limited (UK) is ideal for European clients, while Investing Wolf LLC (USA) serves clients preferring US jurisdiction. We will guide you to the most suitable entity during onboarding.</span>
+          <span data-lang="cs">Obe entity jsou plne funkcni. Investing Wolf Limited (UK) je idealni pro evropske klienty, zatimco Investing Wolf LLC (USA) slouzi klientum preferujicim americkou jurisdikci.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- NEWSLETTER -->
+<div class="section-dark">
+  <div class="section-dark-inner">
+    <div class="newsletter-box">
+      <div>
+        <div class="eyebrow">
+          <span data-lang="en" class="active">Stay Informed</span>
+          <span data-lang="cs">Zustante informovani</span>
+        </div>
+        <h2 class="h2" style="font-size:2.2rem;">
+          <span data-lang="en" class="active">Market Insights &<br><em>Portfolio Updates</em></span>
+          <span data-lang="cs">Pohled na trhy &<br><em>aktualizace portfolia</em></span>
+        </h2>
+        <p style="font-size:0.86rem;color:var(--white-dim);line-height:1.8;margin-top:12px;">
+          <span data-lang="en" class="active">Subscribe to receive exclusive market insights, portfolio performance updates and investment opportunities directly from Václav Krůta.</span>
+          <span data-lang="cs">Prihlasite se k odberu exkluzivnich pohledu na trhy, aktualizaci vykonnosti portfolia a investicnich prilezitosti primo od Vaclava Kruty.</span>
+        </p>
+      </div>
+      <div>
+        <form action="https://formspree.io/f/xrevdora" method="POST">
+          <input type="hidden" name="_subject" value="Newsletter Subscription - Investing Wolf">
+          <div class="newsletter-form">
+            <input type="email" name="email" class="newsletter-input" placeholder="your@email.com" required>
+            <button type="submit" class="newsletter-btn">
+              <span data-lang="en" class="active">Subscribe</span>
+              <span data-lang="cs">Odebírat</span>
+            </button>
+          </div>
+          <p style="font-size:0.62rem;color:var(--white-dim);margin-top:12px;line-height:1.6;">
+            <span data-lang="en" class="active">No spam. Unsubscribe at any time. Your data is never shared.</span>
+            <span data-lang="cs">Zadny spam. Odhlaseni kdykoli. Vase data nejsou nikdy sdilena.</span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- OFFICES -->
+<div class="section">
+  <div class="eyebrow">
+    <span data-lang="en" class="active">Our Offices</span>
+    <span data-lang="cs">Nase kancelare</span>
+  </div>
+  <h2 class="h2">
+    <span data-lang="en" class="active">Two Continents,<br><em>One Group</em></span>
+    <span data-lang="cs">Dva kontinenty,<br><em>jedna skupina</em></span>
+  </h2>
+  <div class="offices-grid">
+    <div class="office-card">
+      <span class="office-flag">&#127468;&#127463;</span>
+      <span class="office-city">London, UK</span>
+      <div class="office-address">
+        Investing Wolf Limited<br>
+        167-169 Great Portland Street<br>
+        London, England, W1W 5PF<br><br>
+        Company No. 15899417<br>
+        <a href="tel:+447884199347" style="color:var(--gold);text-decoration:none;">+44 7884 199 347</a><br>
+        <a href="mailto:vaclavkruta@investingwolflimited.co.uk" style="color:var(--white-dim);text-decoration:none;font-size:0.75rem;">vaclavkruta@investingwolflimited.co.uk</a>
+      </div>
+      <div class="office-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4!2d-0.1435!3d51.5205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c3%3A0x0!2s167-169+Great+Portland+St%2C+London+W1W+5PF!5e0!3m2!1sen!2suk!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="office-card">
+      <span class="office-flag">&#127482;&#127480;</span>
+      <span class="office-city">Kalispell, Montana</span>
+      <div class="office-address">
+        Investing Wolf LLC<br>
+        1001 South Main St, Suite 500<br>
+        Kalispell, Montana 59901<br><br>
+        EIN: 36-5162336<br>
+        <a href="tel:+16466938478" style="color:var(--gold);text-decoration:none;">+1 (646) 693-8478</a><br>
+        <a href="mailto:investingwolfllc@gmail.com" style="color:var(--white-dim);text-decoration:none;font-size:0.75rem;">investingwolfllc@gmail.com</a>
+      </div>
+      <div class="office-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2!2d-114.3119!3d48.1963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x536efec855aaed4b%3A0x0!2s1001+S+Main+St%2C+Kalispell%2C+MT+59901!5e0!3m2!1sen!2sus!4v1" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="hr"></div>
+
+<!-- BOOK -->
+<div class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow">
+      <span data-lang="en" class="active">The Book</span>
+      <span data-lang="cs">Kniha</span>
+    </div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">The Wolf Standard<br><em>Now on Amazon</em></span>
+      <span data-lang="cs">The Wolf Standard<br><em>Nyni na Amazonu</em></span>
+    </h2>
+    <div class="book-section">
+      <div class="book-cover">
+        <div class="book-title-big">The Wolf<br>Standard</div>
+        <div class="book-subtitle">How I Built a Global Investment Empire from Zero</div>
+        <div class="book-author">Vaclav Kruta</div>
+        <a href="https://www.amazon.de/-/cs/gp/aw/d/B0H8C1KWZL" target="_blank" class="book-amazon">
+          &#128722; <span data-lang="en" class="active">Buy on Amazon</span><span data-lang="cs">Koupit na Amazonu</span>
+        </a>
+      </div>
+      <div>
+        <p class="lead" style="margin-bottom:28px;">
+          <span data-lang="en" class="active">Everything I learned building Investing Wolf Group from zero to £7.9 billion — written in one book. From my first Bitcoin investment at 18, through Wall Street and London, to managing one of Europe's most diversified private portfolios.</span>
+          <span data-lang="cs">Vse co jsem se naucil pri budovani Investing Wolf Group od nuly na £7,9 miliardy — napsano v jedne knize. Od prvni investice do Bitcoinu v 18 letech, pres Wall Street a Londyn, az ke sprave jednoho z nejdiverzifikovanejsich soukromych portfolii v Evrope.</span>
+        </p>
+        <div style="display:flex;flex-direction:column;gap:0;">
+          <div style="padding:18px 0;border-bottom:1px solid var(--border);display:flex;gap:16px;align-items:center;">
+            <span style="color:var(--gold);">&#10022;</span>
+            <span style="font-size:0.86rem;color:var(--white-mid);"><span data-lang="en" class="active">Investment philosophy that drives £7.9B+ in assets</span><span data-lang="cs">Investicni filozofie ktera stoji za £7,9 mld+ aktivy</span></span>
+          </div>
+          <div style="padding:18px 0;border-bottom:1px solid var(--border);display:flex;gap:16px;align-items:center;">
+            <span style="color:var(--gold);">&#10022;</span>
+            <span style="font-size:0.86rem;color:var(--white-mid);"><span data-lang="en" class="active">From Bitcoin to Berkshire — the real story</span><span data-lang="cs">Od Bitcoinu po Berkshire — skutecny pribeh</span></span>
+          </div>
+          <div style="padding:18px 0;border-bottom:1px solid var(--border);display:flex;gap:16px;align-items:center;">
+            <span style="color:var(--gold);">&#10022;</span>
+            <span style="font-size:0.86rem;color:var(--white-mid);"><span data-lang="en" class="active">Private equity, gold mines, hotels — the full portfolio breakdown</span><span data-lang="cs">Private equity, zlate doly, hotely — kompletni prehled portfolia</span></span>
+          </div>
+          <div style="padding:18px 0;display:flex;gap:16px;align-items:center;">
+            <span style="color:var(--gold);">&#10022;</span>
+            <span style="font-size:0.86rem;color:var(--white-mid);"><span data-lang="en" class="active">The mindset of a wolf — hunt, lead, dominate</span><span data-lang="cs">Mysleni vlka — lovi, ved, dominuj</span></span>
+          </div>
+        </div>
+        <a href="https://www.amazon.de/-/cs/gp/aw/d/B0H8C1KWZL" target="_blank" class="btn-primary" style="display:inline-block;margin-top:32px;">
+          <span data-lang="en" class="active">Get the Book on Amazon</span>
+          <span data-lang="cs">Ziskat knihu na Amazonu</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- INSIGHTS -->
+<div id="insights" class="section">
+  <div class="section-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">Insights</span><span data-lang="cs">Přehledy</span></div>
+    <h2 class="section-title">
+      <span data-lang="en" class="active">Market <em>Perspectives</em></span>
+      <span data-lang="cs">Tržní <em>Perspektivy</em></span>
+    </h2>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <span class="insight-date">August 2026</span>
+        <h3><span data-lang="en" class="active">Why Diversification Still Matters in a Concentrated Market</span><span data-lang="cs">Proč na diverzifikaci stále záleží na koncentrovaném trhu</span></h3>
+        <p><span data-lang="en" class="active">A handful of mega-cap names now account for an outsized share of major indices. We look at why spreading capital across equities, digital assets, private equity and real assets remains a core discipline rather than an old-fashioned one.</span><span data-lang="cs">Hrstka mega-cap firem dnes tvoří nepřiměřený podíl hlavních indexů. Podíváme se na to, proč zůstává rozložení kapitálu napříč akciemi, digitálními aktivy, private equity a reálnými aktivy klíčovou disciplínou.</span></p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-date">July 2026</span>
+        <h3><span data-lang="en" class="active">Bitcoin as a Treasury Asset: A Practical View</span><span data-lang="cs">Bitcoin jako rezervní aktivum: praktický pohled</span></h3>
+        <p><span data-lang="en" class="active">Beyond the headlines, more allocators are treating Bitcoin as a long-duration store of value alongside gold. We outline the position sizing and risk framework we apply when considering digital assets within a broader portfolio.</span><span data-lang="cs">Nad rámec titulků stále více alokátorů přistupuje k Bitcoinu jako k dlouhodobému uchovateli hodnoty vedle zlata. Nastíníme rámec velikosti pozice a rizika, který používáme.</span></p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-date">June 2026</span>
+        <h3><span data-lang="en" class="active">Private Real Estate in a Higher-Rate Environment</span><span data-lang="cs">Soukromé nemovitosti v prostředí vyšších sazeb</span></h3>
+        <p><span data-lang="en" class="active">Rate volatility has reshaped how private real estate deals are underwritten. We discuss the adjustments we've made to deal structuring and hold periods across our hotel and ranch holdings.</span><span data-lang="cs">Volatilita sazeb změnila způsob posuzování soukromých nemovitostních obchodů. Probereme úpravy struktury obchodů a doby držení napříč hotelovými a rančovými aktivy.</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- CASE STUDIES -->
+<div id="case-studies" class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">Track Record</span><span data-lang="cs">Historie výsledků</span></div>
+    <h2 class="section-title">
+      <span data-lang="en" class="active">Selected <em>Positions</em></span>
+      <span data-lang="cs">Vybrané <em>pozice</em></span>
+    </h2>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <span class="insight-date"><span data-lang="en" class="active">Public Equities</span><span data-lang="cs">Veřejné akcie</span></span>
+        <h3>Berkshire Hathaway, Eli Lilly, Mastercard, Broadcom</h3>
+        <p><span data-lang="en" class="active">Core long-duration holdings selected for durable competitive moats and consistent capital allocation discipline, held across multi-year horizons within the equities sleeve of the portfolio.</span><span data-lang="cs">Klíčové dlouhodobé pozice vybrané pro trvalé konkurenční výhody a disciplinovanou alokaci kapitálu, drženy v horizontu více let v rámci akciové části portfolia.</span></p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-date"><span data-lang="en" class="active">Digital Assets</span><span data-lang="cs">Digitální aktiva</span></span>
+        <h3>Bitcoin &amp; Ethereum (via Bybit)</h3>
+        <p><span data-lang="en" class="active">Core digital asset allocation sized as a long-duration store-of-value position alongside traditional assets, managed with strict position-sizing discipline rather than active trading.</span><span data-lang="cs">Klíčová alokace digitálních aktiv jako dlouhodobý uchovatel hodnoty vedle tradičních aktiv, řízená s přísnou disciplínou velikosti pozice.</span></p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-date"><span data-lang="en" class="active">Private Equity</span><span data-lang="cs">Private equity</span></span>
+        <h3>SpaceX, Kraken, Colossal Biosciences</h3>
+        <p><span data-lang="en" class="active">Select private-market positions in category-defining companies, accessed through direct relationships and structured to align with a multi-year value creation timeline.</span><span data-lang="cs">Vybrané pozice na soukromých trzích ve firmách definujících svou kategorii, se strukturou odpovídající víceletému horizontu tvorby hodnoty.</span></p>
+      </div>
+    </div>
+    <p style="margin-top:32px;font-size:0.72rem;color:var(--white-dim);"><span data-lang="en" class="active">Portfolio composition shown for illustrative purposes. Past performance is not indicative of future results. See full risk disclosures in our <a href="terms.html" style="color:var(--gold-dim);">Terms of Service</a>.</span><span data-lang="cs">Složení portfolia je uvedeno pro ilustraci. Minulá výkonnost není indikátorem budoucích výsledků. Viz úplná rizika v našich <a href="terms.html" style="color:var(--gold-dim);">Podmínkách služby</a>.</span></p>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- TESTIMONIALS -->
+<div id="testimonials" class="section">
+  <div class="section-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">Client Voices</span><span data-lang="cs">Hlas klientů</span></div>
+    <h2 class="section-title">
+      <span data-lang="en" class="active">What Clients <em>Say</em></span>
+      <span data-lang="cs">Co říkají <em>klienti</em></span>
+    </h2>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <p style="font-style:italic;color:var(--white-mid);font-size:0.9rem;">"<span data-lang="en" class="active">Working with the Investing Wolf team gave us clarity on how our capital was actually allocated — the reporting is more transparent than what we had with larger institutions.</span><span data-lang="cs">Spolupráce s týmem Investing Wolf nám dala jasno v tom, jak je náš kapitál skutečně alokován — reporting je transparentnější, než jsme měli u větších institucí.</span>"</p>
+        <span class="insight-date" style="margin-top:16px;display:block;">— <span data-lang="en" class="active">Private Client, London</span><span data-lang="cs">Soukromý klient, Londýn</span></span>
+      </div>
+      <div class="insight-card">
+        <p style="font-style:italic;color:var(--white-mid);font-size:0.9rem;">"<span data-lang="en" class="active">The hotel investment structure was explained clearly from day one, no surprises in the paperwork. That mattered more to us than the headline return.</span><span data-lang="cs">Struktura hotelové investice byla od prvního dne jasně vysvětlena, žádná překvapení v dokumentech. To pro nás bylo důležitější než samotný výnos.</span>"</p>
+        <span class="insight-date" style="margin-top:16px;display:block;">— <span data-lang="en" class="active">Private Client, Prague</span><span data-lang="cs">Soukromý klient, Praha</span></span>
+      </div>
+      <div class="insight-card">
+        <p style="font-style:italic;color:var(--white-mid);font-size:0.9rem;">"<span data-lang="en" class="active">I appreciated that the scholarship program wasn't just a marketing line — the application process and follow-up were genuinely thorough.</span><span data-lang="cs">Ocenil jsem, že stipendijní program nebyl jen marketingová věta — proces žádosti i následná komunikace byly opravdu důkladné.</span>"</p>
+        <span class="insight-date" style="margin-top:16px;display:block;">— <span data-lang="en" class="active">Scholarship Recipient</span><span data-lang="cs">Příjemce stipendia</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- FAQ -->
+<div id="faq" class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow"><span data-lang="en" class="active">FAQ</span><span data-lang="cs">Časté dotazy</span></div>
+    <h2 class="section-title">
+      <span data-lang="en" class="active">Frequently Asked <em>Questions</em></span>
+      <span data-lang="cs">Často kladené <em>otázky</em></span>
+    </h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary><span data-lang="en" class="active">Who can invest with Investing Wolf?</span><span data-lang="cs">Kdo může investovat s Investing Wolf?</span></summary>
+        <p><span data-lang="en" class="active">Our current structure serves High Net Worth and Sophisticated Investors under applicable UK exemptions, and accredited investors in the US. We conduct a suitability review before any engagement begins.</span><span data-lang="cs">Naše současná struktura slouží HNWI a Sophisticated Investors dle příslušných UK výjimek a akreditovaným investorům v USA. Před zahájením spolupráce provádíme kontrolu vhodnosti.</span></p>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="en" class="active">What is the minimum investment?</span><span data-lang="cs">Jaká je minimální investice?</span></summary>
+        <p><span data-lang="en" class="active">Minimums vary by opportunity and asset class. Please reach out via the contact form with your area of interest and we'll outline what applies.</span><span data-lang="cs">Minima se liší podle příležitosti a třídy aktiv. Ozvěte se prosím přes kontaktní formulář s Vaší oblastí zájmu a upřesníme podmínky.</span></p>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="en" class="active">Is Investing Wolf FCA regulated?</span><span data-lang="cs">Je Investing Wolf regulována FCA?</span></summary>
+        <p><span data-lang="en" class="active">Investing Wolf Limited is not currently authorised by the UK FCA. Engagements with UK investors rely on the High Net Worth / Sophisticated Investor exemptions under the Financial Promotion Order. Full FCA authorisation is part of our medium-term roadmap.</span><span data-lang="cs">Investing Wolf Limited není v současnosti autorizována britským FCA. Spolupráce s UK investory probíhá na základě výjimek HNWI/Sophisticated Investor. Plná autorizace FCA je součástí našeho střednědobého plánu.</span></p>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="en" class="active">How does the scholarship program work?</span><span data-lang="cs">Jak funguje stipendijní program?</span></summary>
+        <p><span data-lang="en" class="active">We award 3-5 scholarships annually to students across the Czech Republic, UK and USA. Applications require a motivation letter, essay and school transcript, submitted through our online form.</span><span data-lang="cs">Ročně udělujeme 3-5 stipendií studentům z ČR, UK a USA. Žádost vyžaduje motivační dopis, esej a výpis ze studia, podané přes náš online formulář.</span></p>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="en" class="active">Which asset classes do you cover?</span><span data-lang="cs">Které třídy aktiv pokrýváte?</span></summary>
+        <p><span data-lang="en" class="active">Global equities, digital assets, private equity, real estate (including hospitality and agricultural land), sovereign bonds, and select gold mining positions.</span><span data-lang="cs">Globální akcie, digitální aktiva, private equity, nemovitosti (včetně hotelnictví a zemědělské půdy), státní dluhopisy a vybrané pozice ve zlatých dolech.</span></p>
+      </details>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- SCHOLARSHIP -->
+<div id="scholarship" class="section-dark">
+  <div class="section-dark-inner">
+    <div class="eyebrow">
+      <span data-lang="en" class="active">Supporting the Next Generation</span>
+      <span data-lang="cs">Podpora nove generace</span>
+    </div>
+    <h2 class="h2">
+      <span data-lang="en" class="active">Investing Wolf<br><em>Scholarship Program</em></span>
+      <span data-lang="cs">Investing Wolf<br><em>Stipendijni program</em></span>
+    </h2>
+    <p class="lead">
+      <span data-lang="en" class="active">We believe in investing in people, not just markets. The Investing Wolf Scholarship supports talented and ambitious students across the Czech Republic, UK and USA.</span>
+      <span data-lang="cs">Verime v investovani do lidi, nejen do trhu. Stipendijni program Investing Wolf podporuje talentovane a ambiciozni studenty v Ceske republice, UK a USA.</span>
+    </p>
+
+    <div class="schol-grid">
+      <div>
+        <div class="schol-amount">50 000 <span style="font-size:2rem;">Kc</span></div>
+        <div class="schol-amount-label">
+          <span data-lang="en" class="active">Per Scholarship &middot; 3-5 awarded annually</span>
+          <span data-lang="cs">Na jedno stipendium &middot; 3-5 rocne</span>
+        </div>
+
+        <div class="schol-info" style="margin-top:32px;">
+          <div class="schol-item">
+            <span class="schol-icon">&#10022;</span>
+            <div>
+              <span class="schol-label">
+                <span data-lang="en" class="active">Who can apply</span>
+                <span data-lang="cs">Kdo muze zadat</span>
+              </span>
+              <span class="schol-val">
+                <span data-lang="en" class="active">Secondary school and university students &mdash; any field of study</span>
+                <span data-lang="cs">Studenti strednich skol a vysokych skol &mdash; jakykoli obor</span>
+              </span>
+            </div>
+          </div>
+          <div class="schol-item">
+            <span class="schol-icon">&#10022;</span>
+            <div>
+              <span class="schol-label">
+                <span data-lang="en" class="active">Selection criteria</span>
+                <span data-lang="cs">Kriteria vyberu</span>
+              </span>
+              <span class="schol-val">
+                <span data-lang="en" class="active">Motivation, ambition and personal development</span>
+                <span data-lang="cs">Motivace, ambice a osobni rozvoj</span>
+              </span>
+            </div>
+          </div>
+          <div class="schol-item">
+            <span class="schol-icon">&#10022;</span>
+            <div>
+              <span class="schol-label">
+                <span data-lang="en" class="active">Countries</span>
+                <span data-lang="cs">Zeme</span>
+              </span>
+              <span class="schol-val">&#127464;&#127487; Ceska republika &nbsp;&middot;&nbsp; &#127468;&#127463; UK &nbsp;&middot;&nbsp; &#127482;&#127480; USA</span>
+            </div>
+          </div>
+          <div class="schol-item">
+            <span class="schol-icon">&#10022;</span>
+            <div>
+              <span class="schol-label">
+                <span data-lang="en" class="active">Required documents</span>
+                <span data-lang="cs">Pozadovane dokumenty</span>
+              </span>
+              <span class="schol-val">
+                <span data-lang="en" class="active">1. Application form (below)<br>2. Motivation letter (1 page)<br>3. Essay on chosen topic (1-2 pages)<br>4. School transcript (last year)</span>
+                <span data-lang="cs">1. Prihláska (níze)<br>2. Motivacni dopis (1 strana)<br>3. Esej na zvolene tema (1-2 strany)<br>4. Vypis skolnich vysledku (posledni rok)</span>
+              </span>
+            </div>
+          </div>
+          <div class="schol-item">
+            <span class="schol-icon">&#10022;</span>
+            <div>
+              <span class="schol-label">
+                <span data-lang="en" class="active">Essay topics (choose one)</span>
+                <span data-lang="cs">Tema eseje (vyberte jedno)</span>
+              </span>
+              <span class="schol-val">
+                <span data-lang="en" class="active">A) What does financial freedom mean to me and how do I plan to achieve it?<br>B) How would I invest 50,000 CZK if I received it today?</span>
+                <span data-lang="cs">A) Co pro me znamena financni svoboda a jak ji chci dosahnout?<br>B) Jak bych investoval 50 000 Kc, kdybych je dostal dnes?</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="eyebrow" style="margin-bottom:20px;">
+          <span data-lang="en" class="active">Apply Now</span>
+          <span data-lang="cs">Prihlasit se</span>
+        </div>
+
+        <div style="padding:36px;border:1px solid var(--border);background:rgba(201,168,76,0.03);display:flex;flex-direction:column;gap:24px;">
+          <p style="font-size:0.88rem;line-height:1.85;color:var(--white-mid);">
+            <span data-lang="en" class="active">Click the button below to access the official Investing Wolf Scholarship application form. You will be able to upload your motivation letter, essay and school transcript directly.</span>
+            <span data-lang="cs">Kliknutim na tlacitko nize ziskate pristup k oficialni prihlasce stipendijniho programu Investing Wolf. Budete moci nahrat motivacni dopis, esej a vypis vysledku.</span>
+          </p>
+
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div style="display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--border);">
+              <span style="color:var(--gold);">&#10022;</span>
+              <span style="font-size:0.82rem;color:var(--white-dim);"><span data-lang="en" class="active">Motivation Letter (PDF)</span><span data-lang="cs">Motivacni dopis (PDF)</span></span>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--border);">
+              <span style="color:var(--gold);">&#10022;</span>
+              <span style="font-size:0.82rem;color:var(--white-dim);"><span data-lang="en" class="active">Essay on chosen topic (PDF)</span><span data-lang="cs">Esej na zvolene tema (PDF)</span></span>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--border);">
+              <span style="color:var(--gold);">&#10022;</span>
+              <span style="font-size:0.82rem;color:var(--white-dim);"><span data-lang="en" class="active">School Transcript - last year (PDF)</span><span data-lang="cs">Vypis skolnich vysledku - posledni rok (PDF)</span></span>
+            </div>
+          </div>
+
+          <a href="https://forms.gle/bEHw12K8dtyQUFhP6" target="_blank" class="btn-primary" style="text-align:center;">
+            <span data-lang="en" class="active">Apply for Scholarship</span>
+            <span data-lang="cs">Podat prihlasku</span>
+          </a>
+
+          <p style="font-size:0.62rem;color:var(--white-dim);line-height:1.65;letter-spacing:0.04em;">
+            <span data-lang="en" class="active">Applications are reviewed by the Investing Wolf team. Successful applicants will be contacted directly by email. All submissions are treated with strict confidentiality.</span>
+            <span data-lang="cs">Prihlasky posuzuje tym Investing Wolf. Uspesni zadatele budou kontaktovani emailem. Veskera podani jsou zpracovavana s pouzitim prisne duverne.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hr"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-top">
+    <div>
+      <span class="foot-logo">Investing Wolf</span>
+      <p class="foot-tag"><span data-lang="en" class="active">Global private capital management. Verified £7.9B portfolio across equities, Bitcoin, real estate, hotels, gold mines, ranches and private ventures.</span><span data-lang="cs">Globální správa soukromého kapitálu. Ověřené portfolio £7,9 mld napříč akciemi, Bitcoinem, nemovitostmi, hotely, zlatými doly, ranči a soukromými projekty.</span></p>
+    </div>
+    <div>
+      <span class="foot-col-title"><span data-lang="en" class="active">Navigation</span><span data-lang="cs">Navigace</span></span>
+      <div class="foot-links">
+        <a href="#about"><span data-lang="en" class="active">About</span><span data-lang="cs">O nás</span></a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#investments"><span data-lang="en" class="active">Investments</span><span data-lang="cs">Investice</span></a>
+        <a href="#services"><span data-lang="en" class="active">Services</span><span data-lang="cs">Služby</span></a>
+        <a href="#scholarship"><span data-lang="en" class="active">Scholarship</span><span data-lang="cs">Stipendium</span></a><a href="#contact"><span data-lang="en" class="active">Contact</span><span data-lang="cs">Kontakt</span></a>
+        <a href="https://www.instagram.com/wolf_global_holdings" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div>
+      <span class="foot-col-title">🇬🇧 UK</span>
+      <p class="foot-addr">Investing Wolf Limited<br>167-169 Great Portland Street<br>London, W1W 5PF<br><a href="tel:+447884199347" style="color:var(--white-dim);text-decoration:none;">+44 7884 199 347</a><br><a href="mailto:vaclavkruta@investingwolflimited.co.uk" style="color:var(--white-dim);text-decoration:none;font-size:0.7rem;">vaclavkruta@investingwolflimited.co.uk</a></p>
+    </div>
+    <div>
+      <span class="foot-col-title">🇺🇸 USA</span>
+      <p class="foot-addr">Investing Wolf LLC<br>1001 South Main St, Suite 500<br>Kalispell, Montana 59901<br><a href="tel:+16466938478" style="color:var(--white-dim);text-decoration:none;">+1 (646) 693-8478</a><br><a href="mailto:investingwolfllc@gmail.com" style="color:var(--white-dim);text-decoration:none;">investingwolfllc@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-legal">
+      © 2024–2026 Investing Wolf Group · Investing Wolf Limited (UK, est. 2024) · Investing Wolf LLC (USA, est. 2025)<br>
+      <span data-lang="en" class="active">For qualified investors only. Not financial advice. Investment involves risk. Portfolio data verified by Sharesight, May 2026. Investing Wolf Limited is not currently authorised by the UK FCA; engagements with UK investors rely on the High Net Worth / Sophisticated Investor exemptions. <a href="terms.html" style="color:var(--white-dim);">Terms of Service</a> · <a href="privacy.html" style="color:var(--white-dim);">Privacy Policy</a></span>
+      <span data-lang="cs">Pouze pro kvalifikované investory. Není to finanční poradenství. Investice zahrnuje riziko. Data portfolia ověřena Sharesightem, květen 2026. Investing Wolf Limited není v současnosti autorizována britským FCA; spolupráce s UK investory probíhá na základě výjimek pro HNWI/Sophisticated Investor. <a href="terms.html" style="color:var(--white-dim);">Podmínky služby</a> · <a href="privacy.html" style="color:var(--white-dim);">Zásady ochrany soukromí</a></span>
+    </div>
+    <div class="foot-logos">
+      <img src="logo-llc-nav.jpg" alt="LLC">
+      <img src="logo-limited-footer.jpg" alt="Limited">
+    </div>
+  </div>
+</footer>
+
+<script>
+// LANG
+function toggleMobileMenu() {
+  document.getElementById('hamburgerBtn').classList.toggle('open');
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+function setLang(lang) {
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+  });
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent.toLowerCase() === lang);
+  });
+}
+
+// SMOOTH SCROLL
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) t.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// PIE CHART
+const pieCtx = document.getElementById('pieChart').getContext('2d');
+new Chart(pieCtx, {
+  type: 'doughnut',
+  data: {
+    labels: ['BRK/A', 'Hotels', 'Private/StartUp', 'BTC', 'Gold Mines', 'LLY', 'Real Estate', 'Bonds', 'WMT', 'ETH', 'Other'],
+    datasets: [{
+      data: [15.09, 11.37, 16.68, 7.54, 7.35, 6.32, 5.05, 3.41, 2.55, 2.00, 22.64],
+      backgroundColor: [
+        '#C9A84C','#8B7035','#E8C96A','#6B5A2A','#A08030',
+        '#D4B560','#7A6028','#B09040','#5A4820','#C0982E','#3A3020'
+      ],
+      borderColor: '#060606',
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'right', labels: { color: '#7A7268', font: { size: 10, family: 'Inter' }, boxWidth: 12, padding: 8 } }
+    },
+    cutout: '60%'
+  }
+});
+
+// BAR CHART
+const barCtx = document.getElementById('barChart').getContext('2d');
+new Chart(barCtx, {
+  type: 'bar',
+  data: {
+    labels: ['WMT', 'BK.NY', 'MCB', 'JNJ', 'COP', 'LLY', 'CVX', 'ETH', 'LSE', 'AVGO', 'BTC', 'MA'],
+    datasets: [{
+      label: 'Annual Return %',
+      data: [48.77, 64.79, 66.36, 58.14, 51.33, 24.58, 40.24, 13.32, 27.70, 4.87, -22.77, -1.14],
+      backgroundColor: (ctx) => ctx.raw >= 0 ? 'rgba(201,168,76,0.75)' : 'rgba(239,83,80,0.65)',
+      borderColor: (ctx) => ctx.raw >= 0 ? '#C9A84C' : '#ef5350',
+      borderWidth: 1,
+      borderRadius: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#7A7268', font: { size: 9 } }, grid: { color: 'rgba(201,168,76,0.07)' } },
+      y: { ticks: { color: '#7A7268', font: { size: 9 }, callback: v => v + '%' }, grid: { color: 'rgba(201,168,76,0.07)' } }
+    }
+  }
+});
+</script>
+
+<script>
+// Live BTC Price
+async function fetchBTC() {
+  try {
+    const r = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+    const d = await r.json();
+    const price = Math.round(d.bitcoin.usd).toLocaleString();
+    document.getElementById('btcPrice').textContent = '$' + price;
+  } catch(e) {
+    document.getElementById('btcPrice').textContent = '$104,000+';
+  }
+}
+fetchBTC();
+setInterval(fetchBTC, 60000);
+</script>
+
+
+<script>
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+
+<!-- WHATSAPP FLOAT -->
+<div class="whatsapp-float">
+  <div class="wa-menu" id="waMenu">
+    <a href="https://wa.me/447884199347" target="_blank" class="wa-btn wa-btn-uk">
+      <span class="wa-icon">&#128172;</span>
+      <span>UK +44 7884 199 347</span>
+    </a>
+    <a href="https://wa.me/16466938478" target="_blank" class="wa-btn wa-btn-us">
+      <span class="wa-icon">&#128172;</span>
+      <span>US +1 (646) 693-8478</span>
+    </a>
+  </div>
+  <button class="wa-toggle" onclick="toggleWA()" title="WhatsApp">&#128172;</button>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner">
+  <div class="cookie-text">
+    <span data-lang="en" class="active">We use cookies to improve your experience on our website. By continuing to browse, you agree to our use of cookies. <a href="privacy.html">Privacy Policy</a></span>
+    <span data-lang="cs">Pouzivame soubory cookie pro zlepseni vaseho zazitku na nasem webu. Pokracovanim v prohlizenì souhlasite s pouzitim cookies. <a href="privacy.html">Zasady ochrany soukromi</a></span>
+  </div>
+  <div class="cookie-btns">
+    <button class="cookie-decline" onclick="declineCookies()">
+      <span data-lang="en" class="active">Decline</span>
+      <span data-lang="cs">Odmitnout</span>
+    </button>
+    <button class="cookie-accept" onclick="acceptCookies()">
+      <span data-lang="en" class="active">Accept All</span>
+      <span data-lang="cs">Prijmout vse</span>
+    </button>
+  </div>
+</div>
+
+<script>
+function toggleWA() {
+  document.getElementById('waMenu').classList.toggle('open');
+}
+function acceptCookies() {
+  document.getElementById('cookieBanner').style.display = 'none';
+  localStorage.setItem('iw_cookies', 'accepted');
+}
+function declineCookies() {
+  document.getElementById('cookieBanner').style.display = 'none';
+  localStorage.setItem('iw_cookies', 'declined');
+}
+if (localStorage.getItem('iw_cookies')) {
+  document.getElementById('cookieBanner') && (document.getElementById('cookieBanner').style.display = 'none');
+}
+</script>
+
+</body>
+</html>
