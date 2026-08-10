@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://investingwolf.github.io/Investing-Wolf/sitemap.xml
+Sitemap: https://investingwolfgroup.com/sitemap.xml
